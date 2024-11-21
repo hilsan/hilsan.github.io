@@ -22,8 +22,11 @@ author: Hilda Sandström
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Publications: "publications"
+    - CV: "cv"
+    - Talks: "talks"
+    - Teaching portfolio: "teaching"
+    - Outreach: "outreach"
   University profile: "https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m"
 
 ################
@@ -55,7 +58,7 @@ social-network-links:
   github: hilsan
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
+  linkedin: hilda-sandstroem-compchem
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -69,12 +72,12 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
+  ORCID: 0000-0001-7845-1088
+#  google-scholar: https://scholar.google.com/citations?hl=en&user=dU-qQwQAAAAJ
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname
-#  gitlab: yourname
+  gitlab: hilsan
 #  itchio: yourname
 #  untappd: yourname
 
@@ -110,7 +113,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+post_search: false
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
@@ -270,8 +273,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      comments: false  # add comments to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
