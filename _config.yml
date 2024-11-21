@@ -20,7 +20,8 @@ author: Hilda Sandström
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Home: "/"
+  Blog: "/blog/"
   Resources:
     - Publications: "publications"
     - CV: "cv"
@@ -28,6 +29,7 @@ navbar-links:
     - Teaching portfolio: "teaching"
     - Outreach: "outreach"
   University profile: "https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m"
+
 
 ################
 # --- Logo --- #
