@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About me
-Postdoctoral researcher at [Aalto univesity][Aalto link]
 ---
+Postdoctoral researcher at [Aalto univesity][Aalto link]
 
 My name is Hilda Sandström and welcome to my homepage!
 
