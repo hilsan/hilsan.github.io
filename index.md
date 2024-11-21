@@ -12,5 +12,6 @@ title: About Me
     </p>
   </div>
 </div>
+
 [Aalto link]: https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m
 [VILMA link]: https://www.helsinki.fi/en/researchgroups/vilma
