@@ -1,16 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+Postdoctoral researcher at [Aalto univesity][Aalto link]
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Hilda Sandström and welcome to my homepage!
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I am a computational chemist by trade, and I specialize in atmospheric chemsitry and astrochemistry. 
 
-What else do you need?
+I obtained my graduate degree from Chalmers University of Technology in computational chemistry applied to the (astro-) chemistry of hydrogen cyanide and its polymers. Since two years, I am a postdoctoral researcher at [Aalto univesity][Aalto link] and the [Virtual laboratory for molecular level atmospheric transformations (VILMA) center of excellence][VILMA link]. 
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+[Aalto link]: https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m
+[VILMA link]: https://www.helsinki.fi/en/researchgroups/vilma
