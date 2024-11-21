@@ -21,7 +21,7 @@ author: Hilda Sandström
 
 navbar-links:
   Home: "/"
-  Blog: "/blog/"
+  Blog: "/news/"
   Resources:
     - Publications: "publications"
     - CV: "cv"
