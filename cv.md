@@ -99,14 +99,16 @@ permalink: /cv/
 ### Peer-Reviewed Scientific Publications  
 - **Total citations:** 74  
 - **h-index:** 4  
-- **i-index:** 3 (Google Scholar, 10/08/2024)  
-
-1. Sandström, H. et al., *ACS Earth and Space Chemistry*, 2024, DOI: 10.1021/acsearthspacechem.4c00088  
-2. Sandström, H. et al., *Advanced Science*, 2024, DOI: 10.1002/advs.202306235  
-3. Sandström, H. et al., *J. Phys. Chem. A*, 2023, DOI: 10.1021/acs.jpca.3c01504  
-4. Sandström, H. et al., *ACS Earth and Space Chemistry*, 2021, DOI: 10.1021/acsearthspacechem.1c00195  
-5. Sandström, H. et al., *Science Advances*, 2020, DOI: 10.1126/sciadv.aax0272  
-6. Sandström, H. et al., *Diagnostic Microbiology and Infectious Disease*, 2019, DOI: 10.1016/j.diagmicrobio.2018.10.014  
+- **i-index:** 3 (Google Scholar, 10/08/2024)
+- 
+1. Sandström, H & Rinke, P.,  *Geoscientific model development*, 2024, *In press* 
+2. Bortolussi, F. et al., *Atmospheric Chemistry and Physics*, 2024, *In press*
+3. Sandström, H. et al., *ACS Earth and Space Chemistry*, 2024, DOI: 10.1021/acsearthspacechem.4c00088  
+4. Sandström, H. et al., *Advanced Science*, 2024, DOI: 10.1002/advs.202306235  
+5. Sandström, H. & Rahm, M., *J. Phys. Chem. A*, 2023, DOI: 10.1021/acs.jpca.3c01504  
+6. Sandström, H. & Rahm, M., *ACS Earth and Space Chemistry*, 2021, DOI: 10.1021/acsearthspacechem.1c00195  
+7. Sandström, H. & Rahm, M., *Science Advances*, 2020, DOI: 10.1126/sciadv.aax0272  
+8. Lindblom, A. et al., *Diagnostic Microbiology and Infectious Disease*, 2019, DOI: 10.1016/j.diagmicrobio.2018.10.014  
 
 
 ---
@@ -137,12 +139,27 @@ permalink: /cv/
 ---
 
 ### Organization  
-- **2023:**  
-  - Shaking Up Tech Workshop (Finland) - Workshop presenter  
-  - Electronic Structure Theory and Machine Learning Workshop (Levi, Finland) - Steering committee, session chair  
+
+   ## **Conferences and Workshops**  
+- **2023:**
+  - ESTML (Levi, Finland) - Session chair for "EST (electronic structure theory) development" and "Software II"      
 
 - **2022:**  
-  - AbSciCon (Atlanta, USA) - Session chair for "From Prebiotic Chemistry to Astrobiology"  
+  - AbSciCon (Atlanta, USA) - Session chair for "From Prebiotic Chemistry to Astrobiology"
+ 
+    ## **Outreach**
+    
+- **FysKemDagarna (Physics and Chemistry Days) 2024 **  
+  - **Role:** Presenter and Panelist on AI in Chemistry, Physics, and Education  
+  - **Organized by:** Finnish Society of Chemists (FKS), Finnish Physical Society (FSF), in collaboration with the Chemical Society of Åbo (KSÅ) and Skolresurs.  
+  - **Description:** Participated as a presenter and panelist in discussions on the application of AI in chemistry, physics, and education, engaging an audience of students and high school teachers to promote the integration of AI in science education.  
+
+- **Shaking up Tech 2023**  
+  - **Role:** Workshop Organizer  
+  - **Organized by:** Aalto University  
+  - **Description:** Organized and facilitated sessions for the "Molecular AI Laboratory" to inspire women and non-binary individuals to pursue careers in technology and engineering fields.  
+
+
 
 ---
 
