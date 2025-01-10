@@ -6,10 +6,7 @@ permalink: /cv/
 
 # Curriculum Vitae  
 **Hilda Sandström**  
-**Swedish citizen born 18/02/1992**  
 
-**Address:** Raappavuorentie 4, Studio 5033, 01600 Vantaa, Finland  
-**Phone:** +4670-382 57 92  
 **E-mail:** [hilda.sandstrom@aalto.fi](mailto:hilda.sandstrom@aalto.fi)  
 **Social Profiles:** [ResearchGate](#), [LinkedIn](#), [ORCID](#)  
 
