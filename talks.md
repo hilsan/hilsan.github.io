@@ -1,5 +1,9 @@
+---
+layout: page
+title: Conference and Workshop Presentations
+permalink: /talks/
+---
 
-## Conference and Workshop Presentations 
 
 - **2024:**  
   - FysKemDagarna (Physics and Chemistry Days, Stockholm Sweden ) - *AI in Chemistry: Solving experimental challenges with artificial intelligence* (Popular Science Presentation)**  
