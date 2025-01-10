@@ -1,6 +1,8 @@
+
 ## Conference and Workshop Presentations 
+
 - **2024:**  
-- **FysKemDagarna (Physics and Chemistry Days, Stockholm Sweden ) - *AI in Chemistry: Solving experimental challenges with artificial intelligence* (Popular Science Presentation)**  
+  - FysKemDagarna (Physics and Chemistry Days, Stockholm Sweden ) - *AI in Chemistry: Solving experimental challenges with artificial intelligence* (Popular Science Presentation)**  
 
 - **2023:**  
   - International Aerosol Modeling Algorithms Conference (Remote, USA) - *Characterizing Atmospheric Molecules for Machine Learning.*   
