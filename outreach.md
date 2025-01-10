@@ -1,4 +1,3 @@
-  ## **Outreach**    
     
 - **FysKemDagarna (Physics and Chemistry Days) 2024**
   - **Location:** Stockholm, Sweden
