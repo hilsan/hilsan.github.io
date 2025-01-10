@@ -138,7 +138,7 @@ permalink: /cv/
   - European Aerosol Conference (Tampere, Finland) - *Advancing property prediction for atmospheric molecules with molecular fingerprints.* Poster  
 - **2023:**  
   - International Aerosol Modeling Algorithms Conference (Remote, USA) - *Characterizing Atmospheric Molecules for Machine Learning.* Oral  
-  - European Aerosol Conference (Malaga, Spain) - *Characterizing Atmospheric Molecules for Machine Learning.* Oral  
+  - European Aerosol Conference (Málaga, Spain) - *Characterizing Atmospheric Molecules for Machine Learning.* Oral  
   - Physics Days (Tampere, Finland) - *Characterizing Atmospheric Molecules for Machine Learning.* Oral  
 
 - **2022:** AbSciCon (Atlanta, USA) - *Untangling Hydrogen Cyanide Polymerization Using Quantum Chemistry.* Oral  
