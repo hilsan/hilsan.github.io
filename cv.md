@@ -35,7 +35,7 @@ permalink: /cv/
 - **University of Gothenburg (GU), Sweden**  
 - **September 2024–current**  
 - Description: Advising on machine learning applications to experimental atmospheric chemistry data.
-- Mentor: Prof. Mattias Hallqvist
+**Mentor: Prof. Mattias Hallqvist
 
 
 ---
@@ -153,14 +153,14 @@ permalink: /cv/
 
 ### Organization  
 
-   ## **Conferences and Workshops**  
+  ## **Conferences and Workshops**  
 - **2023:**
   - ESTML (Levi, Finland) - Session chair for "EST (electronic structure theory) development" and "Software II"      
 
 - **2022:**  
   - AbSciCon (Atlanta, USA) - Session chair for "From Prebiotic Chemistry to Astrobiology"
  
-    ## **Outreach**
+  ## **Outreach**    
     
 - **FysKemDagarna (Physics and Chemistry Days) 2024**  
   - **Role:** Presenter and Panelist on AI in Chemistry, Physics, and Education  
