@@ -1,3 +1,9 @@
+---
+layout: page
+title: Teaching Portfolio
+permalink: /teaching-portfolio/
+---
+
 ### Supervision  
 - **Current:** Supervising 2 PhD students and 1 undergraduate at Aalto University  
 - **Previous:** Supervised 4 visiting undergraduates and 12 bachelor’s students at Chalmers University of Technology
