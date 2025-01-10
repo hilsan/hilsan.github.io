@@ -29,7 +29,14 @@ permalink: /cv/
 - Investigated the overlap between atmospheric compounds and the molecules found in mass spectral libraries.  
 - Co-developed a new cheminformatics descriptor.  
 - Co-created a model for chemical ionization mass spectrometry peak intensities.  
-**Supervisor:** Prof. Patrick Rinke  
+**Supervisor:** Prof. Patrick Rinke
+
+#### Research Visit, Atmospheric chemistry lab 
+- **University of Gothenburg (GU), Sweden**  
+- **September 2024–current**  
+- Description: Advising on machine learning applications to experimental atmospheric chemistry data.
+- Mentor: Prof. Mattias Hallqvist
+
 
 ---
 
