@@ -153,7 +153,7 @@ permalink: /cv/
 
 ### Organization  
 
-  ## **Conferences and Workshops**  
+ ## **Conferrences and Workshops**  
 - **2023:**
   - ESTML (Levi, Finland) - Session chair for "EST (electronic structure theory) development" and "Software II"      
 
