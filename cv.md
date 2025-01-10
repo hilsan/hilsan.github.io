@@ -108,7 +108,7 @@ permalink: /cv/
 - **h-index:** 5  
 - **i-index:** 3 (Google Scholar, 10/08/2024)
   
-1. Sandström, H & Rinke, P.,  *Geoscientific model development*, 2024, *In press*
+1. Sandström, H & Rinke, P.,  *Geoscientific Model Development*, 2024, *In press*
    
 2. Bortolussi, F. et al., *Atmospheric Chemistry and Physics*, 2024, *In press* 
 
