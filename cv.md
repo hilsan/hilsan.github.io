@@ -155,7 +155,7 @@ permalink: /cv/
  
     ## **Outreach**
     
-- **FysKemDagarna (Physics and Chemistry Days) 2024 **  
+- **FysKemDagarna (Physics and Chemistry Days) 2024**  
   - **Role:** Presenter and Panelist on AI in Chemistry, Physics, and Education  
   - **Organized by:** Finnish Society of Chemists (FKS), Finnish Physical Society (FSF), in collaboration with the Chemical Society of Åbo (KSÅ) and Skolresurs.  
   - **Description:** Participated as a presenter and panelist in discussions on the application of AI in chemistry, physics, and education, engaging an audience of students and high school teachers to promote the integration of AI in science education.  
