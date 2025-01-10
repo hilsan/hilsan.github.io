@@ -29,7 +29,7 @@ permalink: /cv/
 - Investigated the overlap between atmospheric compounds and the molecules found in mass spectral libraries.  
 - Co-developed a new cheminformatics descriptor.  
 - Co-created a model for chemical ionization mass spectrometry peak intensities.  
-**Mentor:** Prof. Patrick Rinke  
+**Supervisor:** Prof. Patrick Rinke  
 
 ---
 
@@ -38,7 +38,7 @@ permalink: /cv/
 (Degree issued: 02/06/2022)  
 - **Thesis title:** Nitriles in Prebiotic Chemistry and Astrobiology  
 - Focus: Examined the role of hydrogen cyanide and hydrogen cyanide polymers in astrochemistry and astrobiology using computational chemistry and ab initio molecular dynamics.  
-**Mentor:** Prof. Martin Rahm  
+**Thesis advisor:** Prof. Martin Rahm  
 
 ---
 
@@ -47,7 +47,7 @@ permalink: /cv/
 (Degree issued: 08/11/2017)  
 - **Thesis title:** Understanding the Mechanism of PAQR-2 Through Modeling and Simulations  
 - Investigated the effects of rigid and fluid membranes on protein conformation by molecular dynamics simulations with classical force fields.  
-**Mentor:** Dr. Samuel Genheden (University of Gothenburg)  
+**Thesis advisor:** Dr. Samuel Genheden (University of Gothenburg)  
 
 ---
 
@@ -55,7 +55,7 @@ permalink: /cv/
 **Advanced Biotechnology**  
 (05/09/2016 – examination date)  
 - **Title:** Conjugative Plasmid Transfer between Klebsiella Pneumoniae and Escherichia Coli Producing Extended Spectrum Beta Lactamase: A Competitive Binding Assay for Optical Mapping  
-**Mentor:** Prof. Fredrik Westerlund  
+**Advisor:** Prof. Fredrik Westerlund  
 
 ---
 
@@ -77,14 +77,14 @@ permalink: /cv/
 
 ### Supervision  
 - **Current:** Supervising 2 PhD students and 1 undergraduate at Aalto University  
-- **Previous:** Supervised 4 visiting undergraduates and 12 bachelor’s students at Chalmers  
+- **Previous:** Supervised 4 visiting undergraduates and 12 bachelor’s students at Chalmers University of Technology
 
 ### Teaching Assistant Roles  
-- **2019–2021 (Aalto University):**  
+
+- **2017–2021 (Chalmers University of Technology):**
   - Quantum Engineering (MSc): Molecular orbital theory and computational labs  
   - Physical Chemistry (BSc): Quantum chemistry, statistical thermodynamics, spectroscopy, and kinetics  
 
-- **2017–2021 (Chalmers University):**  
   - Physical Chemistry (BSc): Kinetics and experimental lab instructor  
   - Theoretical Chemistry (BSc): Quantum chemistry and computational lab instructor  
   - Chemistry and Biochemistry (BSc): Organic synthesis and experimental lab instructor  
