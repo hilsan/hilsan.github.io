@@ -35,7 +35,7 @@ permalink: /cv/
 - **University of Gothenburg (GU), Sweden**  
 - **September 2024–current**  
 - Description: Advising on machine learning applications to experimental atmospheric chemistry data.
-**Mentor: Prof. Mattias Hallqvist
+**Mentor:** Prof. Mattias Hallqvist
 
 
 ---
