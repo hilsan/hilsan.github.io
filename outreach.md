@@ -9,5 +9,7 @@
   - **Location:** Espoo, Finland  
   - **Role:** Workshop Organizer  
   - **Organized by:** Aalto University  
-  - **Description:** Organized and facilitated sessions for the "Molecular AI Laboratory" to inspire women and non-binary individuals to pursue careers in technology and engineering fields.  
+  - **Description:** Organized and facilitated sessions for the "Molecular AI Laboratory" to inspire women and non-binary individuals to pursue careers in technology and engineering fields.
+ 
+- **Get in contact if you are interested in a joint outreach effort on the topics of astrochemistry, atmospheric chemistry or machine learning in chemistry at [hilda.sandstrom@aalto.fi](mailto:hilda.sandstrom@aalto.fi)  **
 
