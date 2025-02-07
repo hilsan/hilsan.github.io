@@ -8,7 +8,7 @@ permalink: /cv/
 **Hilda Sandström**  
 
 **E-mail:** [hilda.sandstrom@aalto.fi](mailto:hilda.sandstrom@aalto.fi)  
-**Social Profiles:** [ResearchGate](#), [LinkedIn](#), [ORCID](#)  
+**Social Profiles:** [ResearchGate](https://www.researchgate.net/profile/Hilda-Sandstroem), [LinkedIn](https://www.linkedin.com/in/hilda-sandstroem-compchem/), [ORCID](https://orcid.org/0000-0001-7845-1088), [Web of Science](https://www.webofscience.com/wos/author/record/MEO-4729-2025)
 
 ---
 
