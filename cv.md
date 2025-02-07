@@ -106,7 +106,8 @@ permalink: /cv/
 ### Peer-Reviewed Scientific Publications  
 - **Total citations:** 85
 - **h-index:** 5  
-- **i-index:** 3 (Google Scholar, 07/02/2025)
+- **i-index:** 3
+(Google Scholar, 07/02/2025)
   
 1. Sandström, H & Rinke, P.,  *Geoscientific Model Development*, 2024, PrePrint
    
