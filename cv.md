@@ -104,38 +104,45 @@ permalink: /cv/
 
 
 ### Peer-Reviewed Scientific Publications  
-- **Total citations:** 85
+- **Total citations:** 89
 - **h-index:** 5  
-- **i-index:** 3
-(Google Scholar, 07/02/2025)
+- **i-index:** 4
+(Google Scholar, 28/05/2025)
   
-1. Sandström, H & Rinke, P.,  *Geoscientific Model Development*, 2024, PrePrint
+1. Sandström, H., & Rinke, P.  Similarity-based analysis of atmospheric organic compounds for machine learning applications. *Geoscientific Model Development*, 18, 2701–2724 (2025).  
+DOI: [10.5194/gmd-18-2701-2025](https://doi.org/10.5194/gmd-18-2701-2025)  
+
    
-2. Bortolussi, F. et al., *Atmospheric Chemistry and Physics*,  25, 685-704 (2025). DOI:  [10.5194/acp-25-685-2025](https://doi.org/10.5194/acp-25-685-2025).  
+2. Malaska, M. J., et al., *Astrobiology*, 25 (2025).
 
+3. Bortolussi, F. et al., *Atmospheric Chemistry and Physics*,  25, 685-704 (2025). DOI:  [10.5194/acp-25-685-2025](https://doi.org/10.5194/acp-25-685-2025).  
 
-3. Sandström, H., et al., *ACS Earth and Space Chemistry*, 8, 1272–1280 (2024). DOI: [10.1021/acsearthspacechem.4c00088](https://doi.org/10.1021/acsearthspacechem.4c00088).  
+4. Sandström, H., et al., *ACS Earth and Space Chemistry*, 8, 1272–1280 (2024). DOI: [10.1021/acsearthspacechem.4c00088](https://doi.org/10.1021/acsearthspacechem.4c00088).  
 
-4. Sandström, H., et al., *Advanced Science*, 11, 2306235 (2024). DOI: [10.1002/advs.202306235](https://doi.org/10.1002/advs.202306235).  
+5. Sandström, H., et al., *Advanced Science*, 11, 2306235 (2024). DOI: [10.1002/advs.202306235](https://doi.org/10.1002/advs.202306235).  
 
-5. Sandström, H., & Rahm, M., *The Journal of Physical Chemistry A*, 127, 4503–4510 (2023). DOI: [10.1021/acs.jpca.3c01504](https://doi.org/10.1021/acs.jpca.3c01504).  
+6. Sandström, H., & Rahm, M., *The Journal of Physical Chemistry A*, 127, 4503–4510 (2023). DOI: [10.1021/acs.jpca.3c01504](https://doi.org/10.1021/acs.jpca.3c01504).  
 
-6. Sandström, H., & Rahm, M., *ACS Earth and Space Chemistry*, 5, 2152–2159 (2021). DOI: [10.1021/acsearthspacechem.1c00195](https://doi.org/10.1021/acsearthspacechem.1c00195).  
+7. Sandström, H., & Rahm, M., *ACS Earth and Space Chemistry*, 5, 2152–2159 (2021). DOI: [10.1021/acsearthspacechem.1c00195](https://doi.org/10.1021/acsearthspacechem.1c00195).  
 
-7. Sandström, H., & Rahm, M., *Science Advances*, 6, eaax0272 (2020). DOI: [10.1126/sciadv.aax0272](https://doi.org/10.1126/sciadv.aax0272).  
+8. Sandström, H., & Rahm, M., *Science Advances*, 6, eaax0272 (2020). DOI: [10.1126/sciadv.aax0272](https://doi.org/10.1126/sciadv.aax0272).  
 
-8. Lindblom, A., et al., *Diagnostic Microbiology and Infectious Disease*, 93, 380–385 (2019). DOI: [10.1016/j.diagmicrobio.2018.10.014](https://doi.org/10.1016/j.diagmicrobio.2018.10.014). [I performed fluorescence microscopy assays where I stained, trapped, and photographed plasmids in nanochannels.]
+9. Lindblom, A., et al., *Diagnostic Microbiology and Infectious Disease*, 93, 380–385 (2019). DOI: [10.1016/j.diagmicrobio.2018.10.014](https://doi.org/10.1016/j.diagmicrobio.2018.10.014). [I performed fluorescence microscopy assays where I stained, trapped, and photographed plasmids in nanochannels.]
 
 ---
 
 ## Peer Reviewer Experience  
-- Present: Reviewer for *ACS Omega*  
+- Present: Reviewer for *ACS Omega*  and *Cornipicus Atmospheric chemistry and physics*
 
 ---
 
 ## Conference Presentations and Organization  
 
 ### Presentations  
+- **2025:**  
+  -  Nordic Workshop on AI for Climate Change  (Gothenburg, Sweden) - *Machine learning for Atmospheric Mass Spectrometry* Oral.
+  - EGU General Assembly 2025 (Vienna, Austria) - *Towards Atmospheric Compound Identification: A Reference Library of Simulated Electron Ionization Mass Spectra* Poster  
+
 - **2024:**  
   - European Aerosol Conference (Tampere, Finland) - *Advancing property prediction for atmospheric molecules with molecular fingerprints.* Poster  
 - **2023:**  
@@ -163,7 +170,12 @@ permalink: /cv/
 - **2022:**  
   - AbSciCon (Atlanta, USA) - Session chair for "From Prebiotic Chemistry to Astrobiology"
  
-  ## **Outreach**    
+  ## **Outreach**
+
+- **Climate AI Nordics Network**  
+  Core Member, Organizer, and Finland Representative (2025 – present)  
+  Actively contributing to network activities focused on advancing collaboration and research on AI for climate science in the Nordic region.
+
     
 - **FysKemDagarna (Physics and Chemistry Days) 2024**  
   - **Role:** Presenter and Panelist on AI in Chemistry, Physics, and Education  
@@ -178,6 +190,11 @@ permalink: /cv/
 
 
 ---
+**Marie Skłodowska-Curie Postdoctoral Fellowship**  
+Awarded by the European Commission, Horizon Europe Programme  
+**Host Institution:** Technical University of Munich (TUM), Germany  
+**Project:** *CLOUDMAP – Climate Modeling Using Atmospheric Physics*  
+**Duration:** 24 months (Oct 2025 – Sep 2027)
 
 ## Travel Grants  
 - **2021:** Nils Philblad’s Foundation (17,000 SEK)  
