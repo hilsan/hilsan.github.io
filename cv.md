@@ -109,7 +109,7 @@ permalink: /cv/
 - **i-index:** 4
 (Google Scholar, 28/05/2025)
   
-1. Sandström, H., & Rinke, P.  Similarity-based analysis of atmospheric organic compounds for machine learning applications. *Geoscientific Model Development*, 18, 2701–2724 (2025).  
+1. Sandström, H., & Rinke, P. *Geoscientific Model Development*, 18, 2701–2724 (2025).  
 DOI: [10.5194/gmd-18-2701-2025](https://doi.org/10.5194/gmd-18-2701-2025)  
 
    
