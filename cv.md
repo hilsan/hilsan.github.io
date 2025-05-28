@@ -190,13 +190,14 @@ DOI: [10.5194/gmd-18-2701-2025](https://doi.org/10.5194/gmd-18-2701-2025)
 
 
 ---
+##  Grants  and Awards
+
 **Marie Skłodowska-Curie Postdoctoral Fellowship**  
 Awarded by the European Commission, Horizon Europe Programme  
 **Host Institution:** Technical University of Munich (TUM), Germany  
-**Project:** *CLOUDMAP – Climate Modeling Using Atmospheric Physics*  
+**Project:** *CLOUDMAP - Improving atmospheric compound identification with data-driven methods*  
 **Duration:** 24 months (Oct 2025 – Sep 2027)
 
-## Travel Grants  
 - **2021:** Nils Philblad’s Foundation (17,000 SEK)  
 - **2019:** Nils Philblad’s Foundation (3,650 SEK)  
 - **2018:** Karl and Annie Leon’s Foundation (3,850 SEK)  
