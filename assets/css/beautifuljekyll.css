@@ -1145,49 +1145,53 @@ pre {
   color: #666;
 }
 
-.pub-buttons {
-  margin-top: 0.5em;
+.pub-list {
+  list-style-type: disc;
+  padding-left: 2em; /* Indentation for bullets */
+  margin: 0;
 }
 
-.pub-entry {
-  padding-left: 1.5em;  /* space for bullet */
-  position: relative;
-}
-.pub-entry::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 0.1em;
-  font-weight: bold;
+.pub-list .pub-entry {
+  margin-bottom: 1.5em; /* Space between publications */
 }
 
+.pub-list .pub-entry .pub-badge {
+  display: inline-block;
+  min-width: 60px; 
+  text-align: center;
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 6px;
+  margin-right: 8px;
+}
 
 .pub-buttons a,
 .pub-buttons button {
   display: inline-flex;
   align-items: center;
-  justify-content: center;  /* centers text vertically */
-  min-height: 28px;
-  padding: 0 0.6em;
+  justify-content: center;
+  padding: 0.35em 0.75em;
+  margin-right: 0.5em;
+  border-radius: 4px;  /* modern rectangular shape */
   font-size: 0.85em;
-  border: 1px solid #888;  /* grey outline */
-  border-radius: 4px;
-  color: #555;
-  background: none;  /* remove background colors */
+  font-weight: 600;
+  border: 1px solid #999; /* grey outline */
+  color: #555; /* grey text */
+  background-color: transparent; /* remove green/blue */
 }
-.pub-buttons a:hover,
-.pub-buttons button:hover {
-  border-color: #555;
-  color: #000;
-}
-
 
 .pub-buttons a:hover,
 .pub-buttons button:hover {
-  background-color: #f5f5f5;     /* subtle hover effect */
-  border-color: #666;            /* slightly darker border on hover */
-  color: #333;                   /* darker text on hover */
+  background-color: #f0f0f0;
 }
+
+.author-underline {
+  text-decoration: underline;
+}
+
 
 /* Remove old colors */
 .doi-button { background-color: transparent; color: #555; border-color: #999; }
