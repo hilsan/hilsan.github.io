@@ -111,4 +111,19 @@ Publications are in reversed chronological order.
   <span class="pub-badge">Sci. Adv.</span> <strong>Can polarity-inverted membranes self-assemble on Titan?</strong><br>
   <strong>H. Sandström</strong>, & M. Rahm, <em>Science Advances</em>, 6, eaax0272 (2020).  
   <div class="pub-buttons">
-    <a class="doi-button" href="https://doi.org/10.1126/s
+    <a class="doi-button" href="https://doi.org/10.1126/sciadv.aax0272" target="_blank">View DOI</a>
+    <a class="bib-button" href="{{ '/_bib/publications.bib' | relative_url }}" download>Download BibTeX</a>
+  </div>
+</div>
+
+<div class="pub-year-divider">2019</div>
+
+<div class="pub-entry">
+  <span class="pub-badge">DMID</span> <strong>Interspecies plasmid transfer appears rare in sequential infections with extended-spectrum β-lactamase (ESBL)-producing Enterobacteriaceae</strong><br>
+  A. Lindblom, K. K. Sriram, V. Müller, R. Öz, <strong>H. Sandström</strong>, C. Åhrén, F. Westerlund, & N. Karami, <em>Diagnostic Microbiology and Infectious Disease</em>, 93, 380–385 (2019).  
+  <small>I performed fluorescence microscopy assays where I stained, trapped, and photographed plasmids in nanochannels.</small>
+  <div class="pub-buttons">
+    <a class="doi-button" href="https://doi.org/10.1016/j.diagmicrobio.2018.10.014" target="_blank">View DOI</a>
+    <a class="bib-button" href="{{ '/_bib/publications.bib' | relative_url }}" download>Download BibTeX</a>
+  </div>
+</div>
