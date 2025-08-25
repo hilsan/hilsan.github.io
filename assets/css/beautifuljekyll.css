@@ -1149,32 +1149,33 @@ pre {
   margin-top: 0.5em;
 }
 
-.pub-buttons a {
-  text-decoration: none;
+.pub-buttons a,
+.pub-buttons button {
   display: inline-block;
-  padding: 0.35em 0.75em;
+  padding: 0.35em 0.75em;       /* same as before */
   margin-right: 0.5em;
-  border-radius: 0.35em;
-  font-size: 0.85em;
+  border-radius: 0.25em;        /* subtle rounding */
+  font-size: 0.8em;             /* slightly smaller to fit neatly */
   font-weight: 600;
+  border: 1px solid #999;       /* grey outline */
+  color: #555;                  /* grey text */
+  background-color: transparent;
+  cursor: pointer;
+  height: 26px;                  /* approximate height of .pub-badge */
+  line-height: 26px;
+  vertical-align: middle;
+  text-align: center;
+  transition: all 0.2s ease;
 }
 
-.doi-button {
-  background-color: #007acc;
-  color: white;
+.pub-buttons a:hover,
+.pub-buttons button:hover {
+  background-color: #f5f5f5;     /* subtle hover effect */
+  border-color: #666;            /* slightly darker border on hover */
+  color: #333;                   /* darker text on hover */
 }
 
-.doi-button:hover {
-  background-color: #005f99;
-}
-
-.bib-button {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.bib-button:hover {
-  background-color: #3e8e41;
-}
-
+/* Remove old colors */
+.doi-button { background-color: transparent; color: #555; border-color: #999; }
+.bib-button { background-color: transparent; color: #555; border-color: #999; }
 
