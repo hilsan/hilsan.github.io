@@ -20,15 +20,17 @@ author: Hilda Sandström
 ###############################################
 
 navbar-links:
+navbar-links:
   Home: "/"
+  CV: "/assets/files/hilda_sandstrom_cv.pdf"
   News: "/news/"
   Resources:
     - Publications: "publications"
-    - CV: "cv"
     - Talks: "talks"
     - Teaching portfolio: "teaching"
     - Outreach: "outreach"
   University profile: "https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m"
+
 
 
 ################
