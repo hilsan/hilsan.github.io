@@ -1154,15 +1154,18 @@ pre {
 
 /* Each publication entry */
 .pub-list .pub-entry {
-  display: flex;             /* badge + text inline */
-  align-items: flex-start;   /* top align */
+  display: block;          /* let text wrap normally */
   margin-bottom: 1.5em;
+  padding-left: 80px;      /* space for badge */
+  position: relative;       /* so we can position the badge */
 }
 
 /* Badge acts as bullet */
 .pub-list .pub-entry .pub-badge {
-  display: inline-block;
-  min-width: 60px; 
+  position: absolute;      /* place it to the left */
+  left: 0;
+  top: 0;
+  min-width: 60px;
   text-align: center;
   background-color: #e0e0e0;
   color: #333;
@@ -1170,9 +1173,8 @@ pre {
   font-weight: 600;
   padding: 2px 6px;
   border-radius: 6px;
-  margin-right: 12px;  /* space between badge and text */
-  flex-shrink: 0;      /* keep badge width */
 }
+
 
 /* Buttons (HTML/BIB) */
 .pub-buttons a,
