@@ -1,6 +1,5 @@
 Publications are in reversed chronological order.
 
-<div class="pub-year-divider">2025</div>
 
 <ul class="pub-list">
 
