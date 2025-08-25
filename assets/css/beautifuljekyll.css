@@ -1137,3 +1137,11 @@ pre {
   margin-right: 8px;
 }
 
+.pub-year-divider {
+  border-top: 1px solid #dcdcdc;
+  margin: 2em 0 1em 0;
+  padding-top: 0.5em;
+  font-weight: 600;
+  color: #666;
+}
+
