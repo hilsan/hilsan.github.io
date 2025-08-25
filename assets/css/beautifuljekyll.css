@@ -1151,21 +1151,20 @@ pre {
 
 .pub-buttons a,
 .pub-buttons button {
-  display: inline-block;
-  padding: 0.35em 0.75em;       /* same as before */
+  display: inline-flex;           /* Use flex instead of inline-block */
+  align-items: center;            /* Center vertically */
+  justify-content: center;        /* Center horizontally */
+  text-decoration: none;
+  padding: 0.35em 0.75em;
   margin-right: 0.5em;
-  border-radius: 0.25em;        /* subtle rounding */
-  font-size: 0.8em;             /* slightly smaller to fit neatly */
+  border-radius: 0.35em;
+  font-size: 0.85em;
   font-weight: 600;
-  border: 1px solid #999;       /* grey outline */
-  color: #555;                  /* grey text */
-  background-color: transparent;
-  cursor: pointer;
-  height: 26px;                  /* approximate height of .pub-badge */
-  line-height: 26px;
-  vertical-align: middle;
-  text-align: center;
-  transition: all 0.2s ease;
+  border: 1px solid #888;        /* grey outline for your style */
+  color: #555;                    /* grey text */
+  background-color: transparent;  /* remove green/blue backgrounds */
+  min-height: 2.2em;              /* ensures buttons aren’t too short */
+  box-sizing: border-box;         /* include padding in height */
 }
 
 .pub-buttons a:hover,
