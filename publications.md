@@ -6,7 +6,7 @@ Publications are in reversed chronological order.
 
 - <span class="pub-badge">PNAS</span> Izquierdo-Ruiz, F., Cable, M. L., Hodyss, R., Vu, T. H., **Sandström, H.**, Lobato, L., & Rahm, M., *Proc. Natl. Acad. Sci. U.S.A.*, 122, e2507522122 (2025).  
   DOI: [10.1073/pnas.2507522122](https://doi.org/10.1073/pnas.2507522122)  
-  <small> Developed and tested crystal structure prediction program workfloe for molecular cocrystals of hydrogen cyanide.</small>
+  <small> Developed and tested crystal structure prediction program workflow for molecular cocrystals of hydrogen cyanide.</small>
 
 - <span class="pub-badge">ACS ES&T Air</span> Brean, J., Bortolussi, F., Rowell, A., Beddows, D. C. S., Weinhold, K., Mettke, P., Merkel, M., Kumar, A., Barua, S., Iyer, S., Karppinen, A., **Sandström, H.**, Rinke, P., Wiedensohler, A., Pöhlker, M., Dal Maso, M., Rissanen, M., Shi, Z., & Harrison, R. M., *ACS ES&T Air*, 2 (8), 1704–1713 (2025).  
   DOI: [10.1021/acsestair.5c00119](https://doi.org/10.1021/acsestair.5c00119)  
