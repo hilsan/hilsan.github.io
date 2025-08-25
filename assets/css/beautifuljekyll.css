@@ -1145,3 +1145,36 @@ pre {
   color: #666;
 }
 
+.pub-buttons {
+  margin-top: 0.5em;
+}
+
+.pub-buttons a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.35em 0.75em;
+  margin-right: 0.5em;
+  border-radius: 0.35em;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.doi-button {
+  background-color: #007acc;
+  color: white;
+}
+
+.doi-button:hover {
+  background-color: #005f99;
+}
+
+.bib-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.bib-button:hover {
+  background-color: #3e8e41;
+}
+
+
