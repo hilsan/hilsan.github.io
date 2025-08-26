@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conference and Workshop Presentations
+title: Talks
 permalink: /talks/
 ---
 
@@ -9,7 +9,7 @@ permalink: /talks/
   <!-- 2025 -->
   <li class="pub-year-divider">2025</li>
   <li class="pub-entry">
-    <strong>Invited.</strong> Nordic Workshop on AI for Climate Change (Sweden) – 
+    <strong>Invited.</strong> Nordic Workshop on AI for Climate Change (Gothenburg, Sweden) – 
     <em>Machine learning for atmospheric mass spectrometry</em>
   </li>
 
@@ -23,7 +23,7 @@ permalink: /talks/
   <!-- 2023 -->
   <li class="pub-year-divider">2023</li>
   <li class="pub-entry">
-    <strong>Contributed.</strong> International Aerosol Modeling Algorithms Conference (Remote, USA) – 
+    <strong>Contributed.</strong> International Aerosol Modeling Algorithms Conference (Davis, USA) – 
     <em>Characterizing Atmospheric Molecules for Machine Learning</em>
   </li>
   <li class="pub-entry">
