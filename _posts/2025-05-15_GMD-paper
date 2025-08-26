@@ -1,0 +1,14 @@
+---
+layout: post
+title: "New paper published in GMD: Similarity-based analysis of atmospheric organic compounds for machine learning applications"
+date: 2025-05-15
+categories: news
+---
+
+Our work on mapping out the potential of data-driven compound identification with mass spectrometry in atmospheric chemistry has been published in [GMD](https://doi.org/10.5194/gmd-18-2701-2025)!
+
+The idea for this project began when we set out to improve compound identification in atmospheric chemistry and realized that other chemistry domains had already been on this track for a decade. Great news—if their models could be applied to our data. But there were open questions: the existing models were trained to map mass spectra to molecular fingerprints (binary representations of molecular structures). Their performance depends heavily on the training data, and as with most machine learning models, assuming they generalize to new compound classes is far from guaranteed.
+
+To address this, I conducted a similarity analysis to qualitatively and quantitatively assess how close the compounds relevant to particle formation are to those used in existing models. The results showed clear distinctions: overall similarity between datasets was low. This was measured using molecular fingerprints and a metric called Tanimoto similarity, and further explored with unsupervised clustering methods. We concluded that these models need careful validation before being applied to atmospheric compounds. The major challenge remains the lack of large, high-quality datasets of atmospheric mass spectra.
+
+The process of bringing this project from idea to publication has been a long but rewarding journey. Along the way, it inspired a [perspective paper](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202306235) and a number of grant applications, and provided me with a deep introduction to cheminformatics—something I hadn’t encountered during my PhD. Importantly, it also gave our group at Aalto a solid foundation to take the next steps toward improved compound identification models. Excited for what’s to come!
