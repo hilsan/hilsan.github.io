@@ -37,3 +37,20 @@ title: Welcome!
   </div>
 
 </div>
+
+<!-- Latest news section -->
+<div>
+  <h2>Latest News</h2>
+  <ul class="posts-list list-unstyled">
+    {% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0,5 %}
+    {% for post in latest_posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span> – 
+          <span class="news-title">{{ post.title }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
