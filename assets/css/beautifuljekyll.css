@@ -1156,7 +1156,7 @@ pre {
 .pub-list .pub-entry {
   display: block;          /* let text wrap normally */
   margin-bottom: 1.5em;
-  padding-left: 80px;      /* space for badge */
+  padding-left: 100px;      /* space for badge */
   position: relative;       /* so we can position the badge */
 }
 
