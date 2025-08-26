@@ -1210,25 +1210,30 @@ pre {
 }
 
 .news-list {
-  list-style: none;   /* remove bullets */
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .news-item {
   display: flex;
-  align-items: baseline;
+  align-items: baseline;  /* aligns date and title text nicely */
   margin-bottom: 0.75em;
 }
 
 .news-date {
-  min-width: 120px;   /* aligns all dates */
+  min-width: 120px;       /* fixed width for date column */
+  text-align: right;      /* aligns all dates to the right */
+  margin-right: 10px;     /* spacing between date and title */
   font-weight: 500;
-  color: #666;        /* subtle grey */
+  color: #666;
   font-size: 0.9em;
+  white-space: nowrap;    /* prevents date from wrapping */
 }
 
 .news-title {
+  flex: 1;                /* title takes remaining space */
+  text-align: left;
   color: #444;
   font-size: 1em;
   text-decoration: none;
