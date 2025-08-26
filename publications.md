@@ -113,6 +113,17 @@ Publications are in reversed chronological order.
   </div>
 </li>
 
+<!-- 2022: ADDED — PhD thesis -->
+  <!-- 2022 -->
+  <li class="pub-year-divider">2022</li>
+  <li class="pub-entry">
+    <span class="pub-badge">PhD Thesis</span>
+    Hilda Sandström – <em>Nitriles in Prebiotic Chemistry and Astrobiology</em>.  
+    Chalmers University of Technology. ISBN: 978-91-7905-652-0.  
+    <a href="https://research.chalmers.se/en/publication/532610" target="_blank">Full text (PDF)</a>
+  </li>
+
+
 <!-- 2021 -->
 <li class="pub-year-divider">2021</li>
 
@@ -291,21 +302,30 @@ document.querySelectorAll('.bib-button').forEach(button => {
   });
 });
 
-// CrossRef citation counts
+
+// CrossRef citation counts — skip fetch when no DOI and show "—"
 document.querySelectorAll('.pub-entry').forEach(entry => {
   const doi = entry.dataset.doi;
-  fetch(`https://api.crossref.org/works/${doi}`)
-    .then(res => res.json())
+  const countSpan = entry.querySelector('.citation-count .count');
+  if (!doi) {
+    // no DOI available (e.g. thesis) — show dash
+    if (countSpan) countSpan.textContent = '—';
+    return;
+  }
+  fetch(`https://api.crossref.org/works/${encodeURIComponent(doi)}`)
+    .then(res => {
+      if (!res.ok) throw new Error('CrossRef fetch failed');
+      return res.json();
+    })
     .then(data => {
-      const countSpan = entry.querySelector('.citation-count .count');
       if (data.message && data.message['is-referenced-by-count'] !== undefined) {
-        countSpan.textContent = data.message['is-referenced-by-count'];
+        if (countSpan) countSpan.textContent = data.message['is-referenced-by-count'];
       } else {
-        countSpan.textContent = '0';
+        if (countSpan) countSpan.textContent = '0';
       }
     })
     .catch(() => {
-      entry.querySelector('.citation-count .count').textContent = '0';
+      if (countSpan) countSpan.textContent = '0';
     });
 });
 </script>
