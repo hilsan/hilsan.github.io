@@ -4,17 +4,48 @@ title: Teaching Portfolio
 permalink: /teaching/
 ---
 
-### Supervision  
-- **Current:** Supervising 2 PhD students and 1 undergraduate at Aalto University  
-- **Previous:** Supervised 4 visiting undergraduates and 12 bachelor’s students at Chalmers University of Technology
+<ul class="pub-list">
 
-### Teaching Assistant Roles  
+<li class="pub-year-divider">Current</li>
 
-- **2017–2021 (Chalmers University of Technology):**
-  - Quantum Engineering (MSc): Molecular orbital theory and computational labs  
-  - Physical Chemistry (BSc): Quantum chemistry, statistical thermodynamics, spectroscopy, and kinetics  
+<li class="pub-entry">
+  <strong>PhD Students:</strong> Supervising 2 at Aalto University<br>
+  <strong>Undergraduate:</strong> Supervising 1 at Aalto University
+</li>
 
-  - Physical Chemistry (BSc): Kinetics and experimental lab instructor  
-  - Theoretical Chemistry (BSc): Quantum chemistry and computational lab instructor  
-  - Chemistry and Biochemistry (BSc): Organic synthesis and experimental lab instructor  
-  - Calculus (2014): Mathematics tutor  
+<li class="pub-year-divider">Previous</li>
+
+<li class="pub-entry">
+  <strong>Visiting Undergraduates:</strong> Supervised 4 at Chalmers University of Technology<br>
+  <strong>Bachelor’s Students:</strong> Supervised 12 at Chalmers University of Technology
+</li>
+
+<li class="pub-year-divider">2017–2021</li>
+
+<li class="pub-entry">
+  <strong>Quantum Engineering (MSc, Chalmers University of Technology):</strong> Molecular orbital theory and computational labs
+</li>
+
+<li class="pub-entry">
+  <strong>Physical Chemistry (BSc, Chalmers University of Technology):</strong> Quantum chemistry, statistical thermodynamics, spectroscopy, and kinetics
+</li>
+
+<li class="pub-entry">
+  <strong>Physical Chemistry (BSc):</strong> Kinetics and experimental lab instructor
+</li>
+
+<li class="pub-entry">
+  <strong>Theoretical Chemistry (BSc):</strong> Quantum chemistry and computational lab instructor
+</li>
+
+<li class="pub-entry">
+  <strong>Chemistry and Biochemistry (BSc):</strong> Organic synthesis and experimental lab instructor
+</li>
+
+<li class="pub-year-divider">2014</li>
+
+<li class="pub-entry">
+  <strong>Calculus Tutor:</strong> Mathematics tutoring for undergraduate students
+</li>
+
+</ul>
