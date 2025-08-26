@@ -25,9 +25,9 @@ navbar-links:
   News: "/news/"
   Publications: "/publications/"
   Talks: "/talks/"
-  Research:
-    - Research overview: "research overview"
-    - CLOUDMAP: "cloudmap"
+ # Research:
+  #  - Research overview: "research overview"
+  #  - CLOUDMAP: "cloudmap"
   Other resources:
     - Teaching portfolio: "teaching"
     - Outreach: "outreach"
