@@ -6,7 +6,7 @@ permalink: /outreach/
 
 
 
-- ** Climate AI Nordics (CAIN) 2025, Core team member**
+- **Climate AI Nordics (CAIN) 2025, Core team member**
   - **Location:** Stockholm, Sweden
   - **Role:** Representative for Finland
   - **Description:** A network for AI technology in climate research with over 100 members from the nordic countries. See network website: [https://climateainordics.com/](https://climateainordics.com/)
