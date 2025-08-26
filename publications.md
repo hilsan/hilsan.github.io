@@ -26,7 +26,7 @@ Publications are in reversed chronological order.
 <li class="pub-entry" data-doi="10.1021/acsestair.5c00119">
   <span class="pub-badge">ACS ES&T Air</span> Traffic-emitted amines promote new particle formation at roadsides,<br>
   J. Brean, F. Bortolussi, A. Rowell, D. C. S. Beddows, K. Weinhold, P. Mettke, M. Merkel, A. Kumar, S. Barua, S. Iyer, A. Karppinen, <span class="author-underline">H. Sandström</span>, P. Rinke, A. Wiedensohler, M. Pöhlker, M. Dal Maso, M. Rissanen, Z. Shi, & R. M. Harrison, <em>ACS ES&T Air</em>, 2, 1704–1713, 2025.<br>
-  <small>Supervised PhD student F. Bortolussi in developing and evaluating the machine learning model. I assisted in editing the draft.</small>
+  <small>Supervised PhD student F. Bortolussi in developing and evaluating the machine learning model.</small>
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1021/acsestair.5c00119" target="_blank">HTML</a>
     <button class="bib-button" data-bib="acsest_air_2025">BIB</button>
