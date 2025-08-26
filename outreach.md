@@ -31,9 +31,9 @@ permalink: /outreach/
   <strong>Shaking up Tech</strong><br>
   <strong>Location</strong> Espoo, Finland<br>
   <strong>Role</strong> Workshop Organizer<br>
-  Organized and facilitated sessions for the "Molecular AI Laboratory" to inspire women and non-binary individuals to pursue careers in technology and engineering.
+  Organized and facilitated sessions for the "Molecular AI Laboratory" to inspire young women and non-binary individuals to pursue careers in technology and engineering.
 </li>
 
 </ul>
 
-<p>Get in touch for joint outreach efforts on astrochemistry, atmospheric chemistry, or machine learning in chemistry: <a href="mailto:hilda.sandstrom@aalto.fi">hilda.sandstrom@aalto.fi</a></p>
+<p>Get in touch for joint outreach efforts on computational chemistry, machine learning in chemistry, or examples of applications in astrochemistry and atmospheric chemistry, at <a href="mailto:hilda.sandstrom@aalto.fi">hilda.sandstrom@aalto.fi</a>.</p>
