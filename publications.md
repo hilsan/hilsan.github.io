@@ -117,8 +117,8 @@ Publications are in reversed chronological order.
   <!-- 2022 -->
   <li class="pub-year-divider">2022</li>
   <li class="pub-entry">
-    <span class="pub-badge">PhD Thesis</span>Nitriles in Prebiotic Chemistry and Astrobiology,<br>
-    <span class="author-underline">H. Sandström</span>– <em>Chalmers University of Technology</em>, ISBN: 978-91-7905-652-0.  
+    <span class="pub-badge">PhD Thesis</span>Nitriles in prebiotic chemistry and astrobiology,<br>
+    <span class="author-underline">H. Sandström</span>, <em>Chalmers University of Technology</em>, ISBN: 978-91-7905-652-0.  
     <a href="https://research.chalmers.se/en/publication/532610" target="_blank">Full text (PDF)</a>
   </li>
 
