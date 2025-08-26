@@ -1238,6 +1238,9 @@ pre {
   text-decoration: underline;
 }
 
+.beautiful-jekyll-footer .copyright {
+  display: none;
+}
 
 /* Remove old colors */
 .doi-button { background-color: transparent; color: #555; border-color: #999; }
