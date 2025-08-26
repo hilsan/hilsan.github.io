@@ -25,9 +25,10 @@ navbar-links:
   News: "/news/"
   Publications: "/publications/"
   Talks: "/talks/"
-  Resources:
+  Research:
     - Research overview: "research overview"
     - CLOUDMAP: "cloudmap"
+  Other resources:
     - Teaching portfolio: "teaching"
     - Outreach: "outreach"
   University profile: "https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m"
