@@ -23,9 +23,11 @@ navbar-links:
   About me: "/"
   CV: "/assets/files/hilda_sandstrom_cv.pdf"
   News: "/news/"
+  Publications: "/publications/"
+  Talks: "/talks/"
   Resources:
-    - Publications: "publications"
-    - Talks: "talks"
+    - Research overview: "research overview"
+    - CLOUDMAP: "cloudmap"
     - Teaching portfolio: "teaching"
     - Outreach: "outreach"
   University profile: "https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m"
