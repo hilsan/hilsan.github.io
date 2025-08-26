@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Paper published in ACP: Towards atmospheric compound identification in chemical ionization mass spectrometry with pesticide standards and machine learning"
+date: 2025-08-26
+categories: news
+---
+
+
+Our work focused on improving the analysis of mass spectra of atmospheric compounds is now published in [Atmospheric Chemistry and Physics (ACP)](https://acp.copernicus.org/articles/25/685/2025/).
+
+This project is particularly special to me as it was the first one we began after I joined VILMA at Aalto University in Finland. It is also PhD student Federica's first paper from her PhD work, and I am so happy and impressed with how she carried the project from initial scripts to a published paper.  
+
+The project was a collaboration between her supervisor Matti Rissanen, Fariba Partovi at the University of Helsinki, me and Patrick Rinke at Aalto University, and Joona Mikkilä at Karsa Ltd. Fariba and Matti collected mass spectra of pesticide mixtures using the multiple ionization inlet mass spectrometry method, which allows recording spectra with a set of reagent ions.  
+
+Using a combination of regression and classification models, along with feature importance analysis, we demonstrated that it is possible to predict detection and signal intensities (within one order of magnitude) from molecular structures. We also identified which molecular features are most important for predicting the signals.  
+
+Overall, this work demonstrates how machine learning can improve the analysis of chemical ionization mass spectra for a variety of ions, even when working with small datasets. Seeing it now published feels extremely rewarding.
+
+A big thank you to Federica for her leadership on this project, and to Matti, Fariba, Patrick, and Joona for an excellent collaboration!
