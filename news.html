@@ -6,12 +6,12 @@ permalink: /news/
 
 {% assign posts = paginator.posts | default: site.posts %}
 
-<ul class="posts-list list-unstyled">
+<ul class="news-list">
   {% for post in posts %}
-  <li>
+  <li class="news-item">
     <a href="{{ post.url | relative_url }}">
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.excerpt | strip_html }}</p>
+      <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="news-title">{{ post.title }}</span>
     </a>
   </li>
   {% endfor %}
