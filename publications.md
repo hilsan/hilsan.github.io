@@ -19,7 +19,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1073/pnas.2507522122" target="_blank">HTML</a>
     <button class="bib-button" data-bib="pnas_2025">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -30,7 +29,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1021/acsestair.5c00119" target="_blank">HTML</a>
     <button class="bib-button" data-bib="acsest_air_2025">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -40,7 +38,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.5194/gmd-18-2701-2025" target="_blank">HTML</a>
     <button class="bib-button" data-bib="gmd_2025">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -51,7 +48,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1089/ast.2024.0125" target="_blank">HTML</a>
     <button class="bib-button" data-bib="astrobiology_2025">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -62,7 +58,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.5194/acp-25-685-2025" target="_blank">HTML</a>
     <button class="bib-button" data-bib="acp_2025">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -73,7 +68,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1039/D5CP01101A" target="_blank">HTML</a>
     <button class="bib-button" data-bib="pccp_2025">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -86,7 +80,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1021/acsearthspacechem.4c00088" target="_blank">HTML</a>
     <button class="bib-button" data-bib="acsearth_2024">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -96,7 +89,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1002/advs.202306235" target="_blank">HTML</a>
     <button class="bib-button" data-bib="adv_sci_2024">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -109,7 +101,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1021/acs.jpca.3c01504" target="_blank">HTML</a>
     <button class="bib-button" data-bib="jpca_2023">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -132,7 +123,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1021/acsearthspacechem.1c00195" target="_blank">HTML</a>
     <button class="bib-button" data-bib="acsearth_2021">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -145,7 +135,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1126/sciadv.aax0272" target="_blank">HTML</a>
     <button class="bib-button" data-bib="sciadv_2020">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -159,7 +148,6 @@ Publications are in reversed chronological order.
   <div class="pub-buttons">
     <a class="doi-button" href="https://doi.org/10.1016/j.diagmicrobio.2018.10.014" target="_blank">HTML</a>
     <button class="bib-button" data-bib="dmid_2019">BIB</button>
-    <span class="citation-count">Citations: <span class="count">...</span></span>
   </div>
 </li>
 
@@ -282,7 +270,8 @@ year = {2019},
 volume = {93},
 pages = {380--385},
 doi = {10.1016/j.diagmicrobio.2018.10.014}
-}`;
+}`
+};
 
 // BibTeX download
 document.querySelectorAll('.bib-button').forEach(button => {
@@ -299,32 +288,5 @@ document.querySelectorAll('.bib-button').forEach(button => {
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
   });
-});
-
-
-// CrossRef citation counts — skip fetch when no DOI and show "—"
-document.querySelectorAll('.pub-entry').forEach(entry => {
-  const doi = entry.dataset.doi;
-  const countSpan = entry.querySelector('.citation-count .count');
-  if (!doi) {
-    // no DOI available (e.g. thesis) — show dash
-    if (countSpan) countSpan.textContent = '—';
-    return;
-  }
-  fetch(`https://api.crossref.org/works/${encodeURIComponent(doi)}`)
-    .then(res => {
-      if (!res.ok) throw new Error('CrossRef fetch failed');
-      return res.json();
-    })
-    .then(data => {
-      if (data.message && data.message['is-referenced-by-count'] !== undefined) {
-        if (countSpan) countSpan.textContent = data.message['is-referenced-by-count'];
-      } else {
-        if (countSpan) countSpan.textContent = '0';
-      }
-    })
-    .catch(() => {
-      if (countSpan) countSpan.textContent = '0';
-    });
 });
 </script>
