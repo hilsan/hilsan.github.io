@@ -31,7 +31,7 @@ navbar-links:
   Other resources:
     - Teaching portfolio: "teaching"
     - Outreach: "outreach"
-  University profile: "https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m"
+  University profile: "https://www.ph.nat.tum.de/en/ai4ms/team/hilda-sandstroem/
 
 
 
@@ -59,7 +59,7 @@ navbar-links:
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "hilda.sandstrom@aalto.fi"
+  email: "hilda.sandstroem@tum.de"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: hilsan
 #  medium: yourname
