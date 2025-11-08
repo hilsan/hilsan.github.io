@@ -8,6 +8,11 @@ permalink: /talks/
 
   <!-- 2025 -->
   <li class="pub-year-divider">2025</li>
+    <li class="pub-entry">
+    <strong>Keynote.</strong> Atmospheric days (Jonsered, Sweden) – 
+    <em>CLOUDMAP: Advanced indentification of atmospheric compounds</em>
+  </li>
+
   <li class="pub-entry">
     <strong>Invited.</strong> Nordic Workshop on AI for Climate Change (Gothenburg, Sweden) – 
     <em>Machine learning for atmospheric mass spectrometry</em>
