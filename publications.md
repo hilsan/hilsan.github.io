@@ -174,6 +174,15 @@ Publications are in reversed chronological order.
 <!-- Inline BibTeX Download Script -->
 <script>
 const bibEntries = {
+  qrb_discovery_2025: `@article{Madan2025,
+author = {I. Madan and S. A. Aliabadi and J. Huhtasaari and E. Matic and E. Hogedal and K. Kamińska and F. Nilsson and A. Stark and F. Izquierdo-Ruiz and H. Sandström and M. Rahm},
+title = {On the possibility of carbon-free heteropolymers on Venus: a computational astrobiology study},
+journal = {QRB Discovery},
+year = {2025},
+volume = {6},
+pages = {e23},
+doi = {ADD_DOI_HERE}
+}`,
   pnas_2025: `@article{Izquierdo-Ruiz2025,
 author = {F. Izquierdo-Ruiz and M. L. Cable and R. Hodyss and T. H. Vu and H. Sandström and A. Lobato and M. Rahm},
 title = {Hydrogen cyanide and hydrocarbons mix on Titan},
