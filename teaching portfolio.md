@@ -9,15 +9,15 @@ permalink: /teaching/
 <li class="pub-year-divider">Current</li>
 
 <li class="pub-entry">
-  <strong>PhD Students:</strong> Supervising 2 at Aalto University<br>
-  <strong>Undergraduate:</strong> Supervising 1 at Aalto University
+  <strong>PhD Students:</strong> Supervising 2 at Aalto University and University of Helsinki<br>
+
 </li>
 
 <li class="pub-year-divider">Previous</li>
 
 <li class="pub-entry">
+   <strong>Undergraduate:</strong> Supervised 1 at Aalto University and 12 at Chalmers University of Technology
   <strong>Visiting Undergraduates:</strong> Supervised 4 at Chalmers University of Technology<br>
-  <strong>Bachelor’s Students:</strong> Supervised 12 at Chalmers University of Technology
 </li>
 
 <li class="pub-year-divider">2017–2021</li>
