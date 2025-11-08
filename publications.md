@@ -12,6 +12,17 @@ Publications are in reversed chronological order.
 <!-- 2025 -->
 <li class="pub-year-divider">2025</li>
 
+<li class="pub-entry" data-doi="10.1017/qrd.2025.10012">
+  <span class="pub-badge">QRB Discovery</span> On the possibility of carbon-free heteropolymers on Venus: a computational astrobiology study,<br>
+  I. Madan, S. A. Aliabadi, J. Huhtasaari, E. Matic, E. Hogedal, K. Kamińska, F. Nilsson, A. Stark, F. Izquierdo-Ruiz, <span class="author-underline">H. Sandström</span>, & M. Rahm, <em>QRB Discovery</em>, 6, e23, 2025.<br>
+  <small>Supervised and co-created workflow to evaluate the potential for carbon-free heteropolymers on Venus using quantum chemistry.</small>
+  <div class="pub-buttons">
+    <a class="doi-button" href="[ADD DOI LINK HERE]" target="_blank">HTML</a>
+    <button class="bib-button" data-bib="qrb_discovery_2025">BIB</button>
+  </div>
+</li>
+
+
 <li class="pub-entry" data-doi="10.1073/pnas.2507522122">
   <span class="pub-badge">PNAS</span> Hydrogen cyanide and hydrocarbons mix on Titan,<br>
   F. Izquierdo-Ruiz, M. L. Cable, R. Hodyss, T. H. Vu, <span class="author-underline">H. Sandström</span>, A. Lobato, & M. Rahm, <em>Proc. Natl. Acad. Sci. U.S.A.</em>, 122, e2507522122, 2025.<br>
