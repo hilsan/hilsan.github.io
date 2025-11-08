@@ -6,7 +6,7 @@
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
     {%- elsif page.title -%}
-      {{ page.title | strip_html | xml_escape  }}
+      {{ page.title | strip_html | xml_escape }}
     {%- else -%}
       {{ site.title | strip_html | xml_escape }}
     {%- endif -%}
@@ -52,13 +52,13 @@
   {% include cloudflare_analytics.html %}
   {% include mathjax.html %}
 
-  {% comment %} Include your theme CSS first {% endcomment %}
+  {% comment %} Include any site CSS first {% endcomment %}
   {% if site.site-css %}
     {% for css in site.site-css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
     {% endfor %}
   {% endif %}
 
-  {% comment %} Include custom overrides last so they take effect {% endcomment %}
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  {% comment %} Include main theme CSS last so it takes effect {% endcomment %}
+  <link rel="stylesheet" href="{{ '/assets/css/beautifuljekyll.css' | relative_url }}">
 </head>
