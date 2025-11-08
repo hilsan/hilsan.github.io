@@ -25,27 +25,29 @@ layout: base
 </main>
 
 <script>
-  // Theme toggle button
   const toggle = document.getElementById('theme-toggle');
 
-  // Apply saved theme or system preference
-  const savedTheme = localStorage.getItem('theme');
-  if (savedTheme) {
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    if (toggle) toggle.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
-  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    if (toggle) toggle.textContent = '☀️';
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    if (toggle) toggle.textContent = theme === 'dark' ? '☀️' : '🌙';
   }
 
-  // Toggle theme on click
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    applyTheme(savedTheme);
+  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    applyTheme('dark');
+  } else {
+    applyTheme('light');
+  }
+
   if (toggle) {
     toggle.addEventListener('click', () => {
       const current = document.documentElement.getAttribute('data-theme');
       const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
+      applyTheme(next);
       localStorage.setItem('theme', next);
-      toggle.textContent = next === 'dark' ? '☀️' : '🌙';
     });
   }
 </script>
+
