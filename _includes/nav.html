@@ -70,4 +70,36 @@ nav? <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {%
 
 </nav>
 
+<script>
+  // Get the theme toggle button
+  const toggle = document.getElementById('theme-toggle');
+
+  // Function to apply a theme
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    if (toggle) toggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+  }
+
+  // Load saved theme or system preference
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    applyTheme(savedTheme);
+  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    applyTheme('dark');
+  } else {
+    applyTheme('light');
+  }
+
+  // Toggle theme on click
+  if (toggle) {
+    toggle.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      localStorage.setItem('theme', next);
+    });
+  }
+</script>
+
+
 {% include search.html %}
