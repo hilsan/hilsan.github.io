@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /
-title: Welcome!
+title: Hilda Sandström
 ---
 
 <div style="display: flex; flex-direction: column; gap: 2em;">
@@ -10,7 +10,7 @@ title: Welcome!
   <div style="display: flex; align-items: center; gap: 20px;">
     <img src="assets/img/photo_hilda-sandstroem.jpg" alt="Hilda Sandström" style="height: 300px; width: auto;">
     <div>
-      Postdoctoral researcher in the <a href="https://www.aalto.fi/en/department-of-applied-physics/computational-electronic-structure-theory-cest">Computational Electronic Structure Theory group</a> at Aalto University and part of the national center of excellence <a href="https://www.helsinki.fi/en/researchgroups/vilma">VILMA (Virtual Laboratory for Molecular Level Atmospheric Transformations)</a>.
+      Computational chemist at the Technical University of Munich, working with Prof. Patrick Rinke. My focus is on compound identification methods using a mixture of quantum chemistry and machine learning.
     </div>
   </div>
 
@@ -18,7 +18,7 @@ title: Welcome!
   <div>
     <h2>Research</h2>
     <p>
-      I am a computational chemist specializing in quantum chemistry based materials modeling and machine learning for molecular sciences. My current research focuses on improving molecular-level identification of atmospheric compounds with mass spectrometry through data-driven methods. The results aim to advance understanding of chemical processes that drive particle formation, with implications for climate change and air pollution.
+      I am a computational chemist specializing in quantum chemistry-based materials modeling and machine learning for molecular sciences. My current position as a Marie Curie fellow with the project <a href="https://cordis.europa.eu/project/id/101203938">CLOUDMAP</a> focuses on improving molecular-level identification of atmospheric compounds with mass spectrometry through data-driven methods. The results aim to advance understanding of chemical processes that drive particle formation, with implications for climate change and air pollution.
     </p>
   </div>
 
@@ -26,13 +26,13 @@ title: Welcome!
   <div>
     <h2>Background</h2>
     <p>
-      I studied chemical engineering with applied physics at Chalmers University of Technology (Sweden), specializing in computational materials science. I obtained my PhD in theoretical chemistry from Chalmers University of Technology in 2022. My research during the PhD focused on developing computational modeling and evaluation schemes using enhanced sampling molecular dynamics approaches together with structure prediction and quantum chemistry calculations in a high-performance computing (HPC) environment to understand polymerization of hydrogen cyanide. This research was performed in collaboration with astrochemists and the Chalmers Initiative for Cosmic Origins (<a href="https://cosmicorigins.space/cico">CICO</a>).
+      I studied chemical engineering with applied physics at Chalmers University of Technology (Sweden), specializing in computational materials science. I obtained my PhD in theoretical chemistry from Chalmers University in 2022. My research focused on developing computational modeling and evaluation schemes using enhanced sampling molecular dynamics, structure prediction, and quantum chemistry calculations in a high-performance computing (HPC) environment to understand polymerization of hydrogen cyanide. This work was performed in collaboration with astrochemists and the <a href="https://cosmicorigins.space/cico">Chalmers Initiative for Cosmic Origins (CICO)</a>.
     </p>
     <p>
-      From autumn 2022–2025, I have worked as a postdoctoral researcher at <a href="https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m">Aalto University</a> (Finland). My research at Aalto University has been within the VILMA center of excellence, developing machine learning methods for improved data-driven compound identification of atmospheric compounds. This research supports better understanding of particle formation in the atmosphere, with implications for air pollution and climate change.
+      From autumn 2022–2025, I worked as a postdoctoral researcher at <a href="https://research.aalto.fi/en/persons/hilda-sandstr%C3%B6m">Aalto University</a> (Finland). My research within the VILMA center of excellence involved developing machine learning methods for improved data-driven compound identification of atmospheric compounds. I was part of the <a href="https://www.aalto.fi/en/department-of-applied-physics/computational-electronic-structure-theory-cest">Computational Electronic Structure Theory group</a> at Aalto University and the national center of excellence <a href="https://www.helsinki.fi/en/researchgroups/vilma">VILMA (Virtual Laboratory for Molecular Level Atmospheric Transformations)</a>.
     </p>
     <p>
-      I have a strong and broad expertise in modern quantum chemistry and molecular machine learning/cheminformatics approaches, including molecular descriptor development. I have conducted and supervised a series of independent machine learning projects end-to-end for predicting spectrometry signals and properties from molecular structures.
+      I have strong expertise in modern quantum chemistry and molecular machine learning/cheminformatics approaches, including molecular descriptor development. I have conducted and supervised several independent machine learning projects end-to-end for predicting spectrometry signals and properties from molecular structures.
     </p>
   </div>
 
@@ -46,11 +46,10 @@ title: Welcome!
     {% for post in latest_posts %}
       <li class="news-item">
         <a href="{{ post.url | relative_url }}">
-          <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span> – 
           <span class="news-title">{{ post.title }}</span>
         </a>
       </li>
     {% endfor %}
   </ul>
 </div>
-
