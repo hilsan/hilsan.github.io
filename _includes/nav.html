@@ -1,30 +1,30 @@
-<script>
-  // Get the theme toggle button
-  const toggle = document.getElementById('theme-toggle');
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">{{ site.title }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  // Function to apply a theme
-  function applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    if (toggle) toggle.textContent = theme === 'dark' ? '☀️' : '🌙';
-  }
-
-  // Load saved theme or system preference
-  const savedTheme = localStorage.getItem('theme');
-  if (savedTheme) {
-    applyTheme(savedTheme);
-  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    applyTheme('dark');
-  } else {
-    applyTheme('light');
-  }
-
-  // Toggle theme when button is clicked
-  if (toggle) {
-    toggle.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme');
-      const next = current === 'dark' ? 'light' : 'dark';
-      applyTheme(next);
-      localStorage.setItem('theme', next);
-    });
-  }
-</script>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      {% for name, url in site.navbar-links %}
+        {% if url is string %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url }}">{{ name }}</a>
+          </li>
+        {% else %}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ forloop.index }}" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ name }}</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
+              {% for subname, suburl in url %}
+                <a class="dropdown-item" href="{{ suburl }}">{{ subname }}</a>
+              {% endfor %}
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <button id="theme-toggle" class="btn btn-outline-secondary my-2 my-sm-0">🌙</button>
+  </div>
+</nav>
