@@ -17,7 +17,9 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ forloop.index }}" role="button"
                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ name }}</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
-              {% for subname, suburl in url %}
+              {% for subitem in url %}
+                {% assign subname = subitem | keys | first %}
+                {% assign suburl = subitem[subname] %}
                 <a class="dropdown-item" href="{{ suburl }}">{{ subname }}</a>
               {% endfor %}
             </div>
