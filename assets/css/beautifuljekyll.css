@@ -1251,3 +1251,19 @@ pre {
 .doi-button { background-color: transparent; color: #555; border-color: #999; }
 .bib-button { background-color: transparent; color: #555; border-color: #999; }
 
+/* === Dark mode === */
+[data-theme="dark"] {
+  --page-col: #121212;
+  --text-col: #E0E0E0;
+  --link-col: #4EA8FF;
+  --hover-col: #82CFFF;
+  --navbar-col: #1E1E1E;
+  --navbar-text-col: #E0E0E0;
+  --navbar-border-col: #333;
+  --footer-col: #1E1E1E;
+  --footer-text-col: #BBBBBB;
+  --footer-link-col: #E0E0E0;
+  --footer-hover-col: #4EA8FF;
+  --mid-col: #AAAAAA;
+}
+
