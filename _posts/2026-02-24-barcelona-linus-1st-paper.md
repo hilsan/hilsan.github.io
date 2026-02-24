@@ -11,6 +11,6 @@ Niccolò delivered an great presentation, and I genuinly had fun with the scient
 
 In other good news, Linus, who started his PhD with us in January after completing his undergraduate theses and working in the group as a research assistant, has now published his first first-author paper. The work focuses on developing descriptors suited for property prediction of atmospheric compounds. We show that by using this new and more appropriate descriptor, prediction accuracy improves across a range of molecular properties.
 
-The paper can be read here: [Read the paper](https://doi.org/10.1063/5.0308548)
+[Read the paper here](https://doi.org/10.1063/5.0308548)
 
 ![Niccolò´s thesis cover](/assets/img/niccolo_thesis.jpeg)
