@@ -13,4 +13,4 @@ In other good news, Linus, who started his PhD with us in January after completi
 
 The paper can be read here: [Read the paper](https://doi.org/10.1063/5.0308548)
 
-![Niccolò´s thesis cover](/assets/img/niccolo_thesis.jpg)
+![Niccolò´s thesis cover](/assets/img/niccolo_thesis.jpeg)
