@@ -30,6 +30,7 @@ import sys
 import time
 import unicodedata
 from pathlib import Path
+from typing import Dict, List, Optional, Set, Tuple
 
 import requests
 
@@ -84,7 +85,7 @@ JOURNAL_ABBR = {
 def _ascii_fold(text: str) -> str:
     """Strip diacritics and non-ASCII for BibTeX key generation."""
     nfd = unicodedata.normalize("NFD", text)
-    return "".join(c for c in nfd if unicodedata.category(c) != "Mn" and c.isascii())
+    return "".join(c for c in nfd if unicodedata.category(c) != "Mn" and ord(c) < 128)
 
 
 def make_bib_key(author_str: str, year: str, journal: str) -> str:
@@ -117,7 +118,7 @@ def _unique_key(desired: str, existing_keys: set) -> str:
     return desired + "_dup"
 
 
-def normalize_doi(doi: str) -> str | None:
+def normalize_doi(doi: str) -> Optional[str]:
     """Lowercase, strip URL prefix."""
     if not doi:
         return None
@@ -128,7 +129,7 @@ def normalize_doi(doi: str) -> str | None:
 
 # ── Load / write papers.bib ───────────────────────────────────────────────────
 
-def load_existing_bib(path: Path) -> tuple[list[dict], dict[str, dict]]:
+def load_existing_bib(path: Path) -> Tuple[List[dict], Dict[str, dict]]:
     """
     Returns (all_entries, doi_index) where doi_index maps normalised DOI → entry.
     Entries without a DOI are included in all_entries but not in doi_index.
@@ -152,7 +153,7 @@ def load_existing_bib(path: Path) -> tuple[list[dict], dict[str, dict]]:
     return db.entries, doi_index
 
 
-def write_bib(entries: list[dict], path: Path) -> None:
+def write_bib(entries: List[dict], path: Path) -> None:
     try:
         import bibtexparser
         from bibtexparser.bwriter import BibTexWriter
@@ -176,7 +177,7 @@ def write_bib(entries: list[dict], path: Path) -> None:
 
 # ── Crossref ──────────────────────────────────────────────────────────────────
 
-def crossref_lookup(doi: str) -> dict | None:
+def crossref_lookup(doi: str) -> Optional[dict]:
     """Fetch full work metadata from Crossref by DOI."""
     url = f"https://api.crossref.org/works/{doi}"
     headers = {"User-Agent": f"fetch_publications/1.0 (mailto:{CROSSREF_EMAIL})"}
@@ -243,7 +244,7 @@ def parse_crossref(msg: dict) -> dict:
 
 # ── ORCID ─────────────────────────────────────────────────────────────────────
 
-def fetch_orcid_dois(orcid_id: str) -> list[str]:
+def fetch_orcid_dois(orcid_id: str) -> List[str]:
     """Return all DOIs listed on the ORCID profile."""
     url = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
     headers = {"Accept": "application/json"}
@@ -268,7 +269,7 @@ def fetch_orcid_dois(orcid_id: str) -> list[str]:
 
 # ── Google Scholar ────────────────────────────────────────────────────────────
 
-def fetch_scholar_dois(scholar_id: str) -> list[str]:
+def fetch_scholar_dois(scholar_id: str) -> List[str]:
     """
     Try to pull DOIs from Google Scholar.  Scholar aggressively rate-limits
     automated access, so failures are caught and logged rather than fatal.
@@ -305,7 +306,7 @@ def fetch_scholar_dois(scholar_id: str) -> list[str]:
 
 # ── Build new BibTeX entry ────────────────────────────────────────────────────
 
-def build_entry(meta: dict, existing_keys: set) -> dict:
+def build_entry(meta: dict, existing_keys: Set[str]) -> dict:
     """Turn Crossref metadata into an al-folio–ready BibTeX entry dict."""
     doi  = normalize_doi(meta["doi"])
     year = meta.get("year", "")
@@ -360,7 +361,7 @@ def main():
           f"({len(doi_index)} with DOIs)")
 
     # 2. Collect DOIs from ORCID + Scholar
-    new_dois: list[str] = []
+    new_dois = []  # type: List[str]
     for doi in fetch_orcid_dois(ORCID_ID):
         if doi not in doi_index:
             new_dois.append(doi)

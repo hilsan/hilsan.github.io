@@ -77,7 +77,9 @@ Simulated mass spectrometry signals using machine learning models, molecular dyn
 
 ## Peer-Reviewed Scientific Publications
 
-*(13 peer-reviewed articles, 6 first author. Total citations: 110, h-index: 5, i10-index: 4)*
+*(14 peer-reviewed articles, 6 first author. Total citations: 110, h-index: 5, i10-index: 4)*
+
+14. Lind, L., **Sandström, H.**, & Rinke, P. *The Journal of Chemical Physics*, 164 (2026). DOI: [10.1063/5.0308548](https://doi.org/10.1063/5.0308548).
 
 13. Madan, I., Aliabadi, S. A., Huhtasaari, J., Matic, E., Hogedal, E., Kamińska, K., Nilsson, F., Stark, A., Izquierdo-Ruiz, F., **Sandström, H.**, Rahm, M. *QRB Discovery*, 6, e23 (2025). DOI: [10.1017/qrd.2025.10012](https://doi.org/10.1017/qrd.2025.10012). *[Supervised students and co-created workflow for testing stability of polymers.]*
 
