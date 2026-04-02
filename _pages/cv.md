@@ -77,7 +77,7 @@ Simulated mass spectrometry signals using machine learning models, molecular dyn
 
 ## Peer-Reviewed Scientific Publications
 
-*(15 peer-reviewed articles, 6 first author. Total citations: 110, h-index: 5, i10-index: 4)*
+*(15 peer-reviewed articles, 6 first author. Total citations: 141, h-index: 5, i10-index: 5 — [Google Scholar](https://scholar.google.com/citations?user=dU-qQwQAAAAJ), updated 2 April 2026)*
 
 15. Cappelletti, M., **Sandström, H.**, & Rahm, M. *ACS Central Science*, 12, 111–121 (2026). DOI: [10.1021/acscentsci.5c01497](https://doi.org/10.1021/acscentsci.5c01497).
 
