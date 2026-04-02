@@ -76,6 +76,7 @@ JOURNAL_ABBR = {
     "ChemPhysChem": "ChemPhysChem",
     "Faraday Discussions": "Faraday Discuss.",
     "npj Computational Materials": "npj Comput. Mater.",
+    "ACS Central Science": "ACS Cent. Sci.",
     "Journal of Computational Chemistry": "J. Comput. Chem.",
     "International Journal of Quantum Chemistry": "Int. J. Quantum Chem.",
 }
