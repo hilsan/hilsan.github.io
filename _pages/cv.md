@@ -54,10 +54,10 @@ Simulated mass spectrometry signals using machine learning models, molecular dyn
 
 | Period | Degree |
 |---|---|
-| 9/2017 – 5/2022 | **PhD in Chemistry** (Theoretical chemistry), Chalmers University of Technology, Sweden. Award date 02/06/2022. Thesis: *Nitriles in Prebiotic Chemistry and Astrobiology*. Supervisor: Prof. Martin Rahm. |
-| 8/2012 – 9/2017 | **MEng in Chemical engineering with engineering physics**, Chalmers University of Technology, Sweden. Award date 08/11/2017. |
-| 8/2015 – 9/2017 | **MSc in Engineering physics** (Nanotechnology master program, integrated), Chalmers University of Technology, Sweden. Award date 08/11/2017. |
-| 8/2012 – 6/2015 | **BSc in Chemical engineering with engineering physics** (integrated), Chalmers University of Technology, Sweden. Award date 12/06/2015. |
+| <span class="cv-year">9/2017 – 5/2022</span> | **PhD in Chemistry** (Theoretical chemistry), Chalmers University of Technology, Sweden. Award date 02/06/2022. Thesis: *Nitriles in Prebiotic Chemistry and Astrobiology*. Supervisor: Prof. Martin Rahm. |
+| <span class="cv-year">8/2012 – 9/2017</span> | **MEng in Chemical engineering with engineering physics**, Chalmers University of Technology, Sweden. Award date 08/11/2017. |
+| <span class="cv-year">8/2015 – 9/2017</span> | **MSc in Engineering physics** (Nanotechnology master program, integrated), Chalmers University of Technology, Sweden. Award date 08/11/2017. |
+| <span class="cv-year">8/2012 – 6/2015</span> | **BSc in Chemical engineering with engineering physics** (integrated), Chalmers University of Technology, Sweden. Award date 12/06/2015. |
 
 ---
 
@@ -113,30 +113,30 @@ Simulated mass spectrometry signals using machine learning models, molecular dyn
 
 | Year | Subject | Degree | Type | Hours/week |
 |---|---|---|---|---|
-| 2018–2020 | Quantum engineering | 1st year MSc Nanotechnology | Computer labs | 2 |
-| 2018–2021 | Physical chemistry | 2nd year BSc Biotechnology | Tutorials and experimental labs | 12 |
-| 2018–2021 | Theoretical chemistry | 3rd year BSc Chemical engineering | Computer labs | 4 |
-| 2017–2018 | Chemistry and biochemistry | 1st year BSc Chemical engineering | Experimental labs | 8 |
-| 2014 | Calculus | 1st year BSc Chemical engineering | Exercise | 1 |
+| <span class="cv-year">2018–2020</span> | Quantum engineering | 1st year MSc Nanotechnology | Computer labs | 2 |
+| <span class="cv-year">2018–2021</span> | Physical chemistry | 2nd year BSc Biotechnology | Tutorials and experimental labs | 12 |
+| <span class="cv-year">2018–2021</span> | Theoretical chemistry | 3rd year BSc Chemical engineering | Computer labs | 4 |
+| <span class="cv-year">2017–2018</span> | Chemistry and biochemistry | 1st year BSc Chemical engineering | Experimental labs | 8 |
+| <span class="cv-year">2014</span> | Calculus | 1st year BSc Chemical engineering | Exercise | 1 |
 
 ### Pedagogical Training
 
-2019 — Teaching, learning and evaluation at Chalmers University of Technology (3 ECTS)
+<span class="cv-year">2019</span> — Teaching, learning and evaluation at Chalmers University of Technology (3 ECTS)
 
 ### Supervision of Students
 
 | Period | Role |
 |---|---|
-| Since 2024 | Supervisor of MSc student at Aalto University |
-| Since 2024 | Advisor of PhD student at Aalto University |
-| Since 2022 | Co-supervisor of PhD student at University of Helsinki |
-| 11/2024 – 5/2024 | Supervisor of BSc student at Aalto University |
-| 5/2021 – 9/2021 | Co-supervisor of 2 visiting and 3 BSc students at Chalmers University of Technology |
-| 1/2021 – 6/2021 | Co-supervisor of 6 BSc students at Chalmers University of Technology |
-| 6/2020 – 8/2020 | Supervisor of 2 BSc students at Chalmers University of Technology |
-| 1/2020 – 6/2020 | Supervisor of 6 BSc students at Chalmers University of Technology |
-| 4/2019 – 7/2019 | Supervisor of visiting BSc students at Chalmers University of Technology |
-| 4/2018 – 6/2018 | Supervisor of one BSc student at Chalmers University of Technology |
+| <span class="cv-year">Since 2024</span> | Supervisor of MSc student at Aalto University |
+| <span class="cv-year">Since 2024</span> | Advisor of PhD student at Aalto University |
+| <span class="cv-year">Since 2022</span> | Co-supervisor of PhD student at University of Helsinki |
+| <span class="cv-year">11/2024 – 5/2024</span> | Supervisor of BSc student at Aalto University |
+| <span class="cv-year">5/2021 – 9/2021</span> | Co-supervisor of 2 visiting and 3 BSc students at Chalmers University of Technology |
+| <span class="cv-year">1/2021 – 6/2021</span> | Co-supervisor of 6 BSc students at Chalmers University of Technology |
+| <span class="cv-year">6/2020 – 8/2020</span> | Supervisor of 2 BSc students at Chalmers University of Technology |
+| <span class="cv-year">1/2020 – 6/2020</span> | Supervisor of 6 BSc students at Chalmers University of Technology |
+| <span class="cv-year">4/2019 – 7/2019</span> | Supervisor of visiting BSc students at Chalmers University of Technology |
+| <span class="cv-year">4/2018 – 6/2018</span> | Supervisor of one BSc student at Chalmers University of Technology |
 
 ---
 
@@ -144,9 +144,9 @@ Simulated mass spectrometry signals using machine learning models, molecular dyn
 
 | Year | Award |
 |---|---|
-| 2025 | 202k EUR Marie Skłodowska-Curie postdoctoral fellowship |
-| 2024–2025 | LUMI extreme scale access resource allocation |
-| 2018–2021 | Selected travel grants: Nils Philblad Foundation (2021), Karl and Annie Leon's Foundation (2018–2019) |
+| <span class="cv-year">2025</span> | 202k EUR Marie Skłodowska-Curie postdoctoral fellowship |
+| <span class="cv-year">2024–2025</span> | LUMI extreme scale access resource allocation |
+| <span class="cv-year">2018–2021</span> | Selected travel grants: Nils Philblad Foundation (2021), Karl and Annie Leon's Foundation (2018–2019) |
 
 ---
 
@@ -154,13 +154,13 @@ Simulated mass spectrometry signals using machine learning models, molecular dyn
 
 | Year | Contribution |
 |---|---|
-| 2025 | **Keynote** — Atmospheric day, Sweden. *CLOUDMAP – Advanced identification of atmospheric compounds* |
-| 2025 | **Invited talk** — Nordic Workshop on AI for Climate Change, Sweden. *Machine learning for atmospheric mass spectrometry* |
-| 2024 | **Invited talk** — FysKemDagarna (Physics and Chemistry Days), Sweden. *AI in Chemistry: Solving experimental challenges with artificial intelligence* |
-| 2023 | International Aerosol Modeling Algorithms Conference, USA. *Characterizing Atmospheric Molecules for Machine Learning* |
-| 2023 | European Aerosol Conference, Spain. *Characterizing Atmospheric Molecules for Machine Learning* |
-| 2023 | Physics Days, Finland. *Characterizing atmospheric molecules for machine learning* |
-| 2022 | AbSciCon, USA. *Untangling hydrogen cyanide polymerization using quantum chemistry* |
+| <span class="cv-year">2025</span> | **Keynote** — Atmospheric day, Sweden. *CLOUDMAP – Advanced identification of atmospheric compounds* |
+| <span class="cv-year">2025</span> | **Invited talk** — Nordic Workshop on AI for Climate Change, Sweden. *Machine learning for atmospheric mass spectrometry* |
+| <span class="cv-year">2024</span> | **Invited talk** — FysKemDagarna (Physics and Chemistry Days), Sweden. *AI in Chemistry: Solving experimental challenges with artificial intelligence* |
+| <span class="cv-year">2023</span> | International Aerosol Modeling Algorithms Conference, USA. *Characterizing Atmospheric Molecules for Machine Learning* |
+| <span class="cv-year">2023</span> | European Aerosol Conference, Spain. *Characterizing Atmospheric Molecules for Machine Learning* |
+| <span class="cv-year">2023</span> | Physics Days, Finland. *Characterizing atmospheric molecules for machine learning* |
+| <span class="cv-year">2022</span> | AbSciCon, USA. *Untangling hydrogen cyanide polymerization using quantum chemistry* |
 
 ---
 
@@ -168,13 +168,13 @@ Simulated mass spectrometry signals using machine learning models, molecular dyn
 
 | Year | Service |
 |---|---|
-| 2025 | Reviewer for *ACS Earth Space Chem*, *ACS Omega* and *Atmospheric Chemistry and Physics* |
-| 2025 | Organizing committee, Nordic Workshop on AI for Climate Change, Sweden |
-| 2025 | Core member, organizer and Finland representative, Climate AI Nordics Network |
-| 2024 | Panelist on AI in chemistry, physics, and education, FysKemDagarna |
-| 2023 | Organizer of workshop hands-on session, Shaking Up Tech. Workshop for underrepresented groups in STEM, Aalto University, Finland |
-| 2023 | Session chair and organizer, ESTML, Levi, Finland |
-| 2022 | Session chair, AbSciCon, USA |
+| <span class="cv-year">2025</span> | Reviewer for *ACS Earth Space Chem*, *ACS Omega* and *Atmospheric Chemistry and Physics* |
+| <span class="cv-year">2025</span> | Organizing committee, Nordic Workshop on AI for Climate Change, Sweden |
+| <span class="cv-year">2025</span> | Core member, organizer and Finland representative, Climate AI Nordics Network |
+| <span class="cv-year">2024</span> | Panelist on AI in chemistry, physics, and education, FysKemDagarna |
+| <span class="cv-year">2023</span> | Organizer of workshop hands-on session, Shaking Up Tech. Workshop for underrepresented groups in STEM, Aalto University, Finland |
+| <span class="cv-year">2023</span> | Session chair and organizer, ESTML, Levi, Finland |
+| <span class="cv-year">2022</span> | Session chair, AbSciCon, USA |
 
 ---
 

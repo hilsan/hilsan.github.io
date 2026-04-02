@@ -1,0 +1,38 @@
+/*******************************************************************************
+ * Custom overrides
+ ******************************************************************************/
+
+// CV page: style first-column table cells as teal/blue year badge pills
+.post .cv-table {
+  td:first-child, th:first-child {
+    white-space: nowrap;
+  }
+}
+
+// CV year badge pill - applied to strong elements in first table column
+.cv-year {
+  display: inline-block;
+  background-color: var(--global-theme-color);
+  color: var(--global-card-bg-color) !important;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.2em 0.65em;
+  border-radius: 1rem;
+  white-space: nowrap;
+}
+
+// News section: ensure text is always readable in both light and dark modes
+.news {
+  table {
+    color: var(--global-text-color);
+  }
+
+  table th,
+  table td {
+    color: var(--global-text-color);
+    background-color: transparent;
+    border-color: var(--global-divider-color);
+  }
+}

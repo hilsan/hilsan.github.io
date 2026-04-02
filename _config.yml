@@ -16,7 +16,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: computational chemistry, machine learning, atmospheric chemistry, astrobiology, mass spectrometry
 lang: en
-icon: ⚛️
+icon: favicon.svg
 
 url: https://hilsan.github.io
 baseurl: ""
@@ -200,7 +200,7 @@ scholar:
 
 enable_publication_badges:
   altmetric: false
-  dimensions: false
+  dimensions: true
   google_scholar: true
   inspirehep: false
 

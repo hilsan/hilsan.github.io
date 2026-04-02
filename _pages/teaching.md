@@ -2,7 +2,8 @@
 layout: page
 title: teaching portfolio
 permalink: /teaching/
-nav: false
+nav: true
+nav_order: 6
 ---
 
 ## Current
