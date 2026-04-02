@@ -11,10 +11,7 @@ nav.navbar,
 footer,
 #back-to-top,
 #light-toggle,
-.theme-toggle,
 #cv-pdf-download,
-.social-icons,
-.header-bar,
 progress#progress {
   display: none !important;
 }
@@ -35,8 +32,7 @@ a {
 }
 
 /* ── Layout containers ───────────────────────────────────────── */
-.container,
-.container-md {
+.container {
   max-width: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
@@ -108,6 +104,15 @@ h1.post-title {
   display: flex !important;
   flex-wrap: nowrap !important;
   align-items: baseline !important;
+  /* Bootstrap .row has margin: 0 -15px which pushes content outside the
+     list-group-item boundary; zero it out so dates aren't clipped */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Ensure nothing clips the date text */
+.cv .list-group-item {
+  overflow: visible !important;
 }
 
 .cv .list-group-item .col-md-2 {
