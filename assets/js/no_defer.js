@@ -1,3 +1,18 @@
+// Vanilla JS fallback for navbar hamburger toggle
+// (Bootstrap 4 collapse requires jQuery; this ensures it works even if jQuery CDN is slow/blocked)
+document.addEventListener("DOMContentLoaded", function () {
+  var toggler = document.querySelector(".navbar-toggler");
+  var target = document.getElementById("navbarNav");
+  if (toggler && target) {
+    toggler.addEventListener("click", function () {
+      var isOpen = target.classList.contains("show");
+      target.classList.toggle("show", !isOpen);
+      toggler.classList.toggle("collapsed", isOpen);
+      toggler.setAttribute("aria-expanded", isOpen ? "false" : "true");
+    });
+  }
+});
+
 // add bootstrap classes to tables
 $(document).ready(function () {
   $("table").each(function () {
