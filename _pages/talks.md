@@ -21,7 +21,7 @@ nav_order: 5
   <li>
     <div class="row">
       <div class="col-sm-10">
-        <div class="title"><strong>Contributed.</strong> <a href="https://ccsc2026.github.io/" target="_blank">Condensed Matter Concepts and Simulation Conference — CCSC 2026</a> (Munich, Germany)</div>
+        <div class="title"><strong>Contributed.</strong> <a href="https://ccsc2026.github.io/" target="_blank">Chemical Compounds Space Conference — CCSC 2026</a> (Munich, Germany)</div>
         <div class="author"><em>Towards atmospheric compound identification using simulated electron ionization mass spectra</em></div>
       </div>
     </div>

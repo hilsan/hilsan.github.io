@@ -159,7 +159,7 @@ Simulated mass spectrometry signals using machine learning models, molecular dyn
 | Year | Contribution |
 |---|---|
 | <span class="cv-year">2026</span> | **Invited talk** — Network on Mathematical Data Science for Materials Science, Workshop on the Interface of Mathematics and Machine Learning for Applications in Materials Science, University of Glasgow, UK. *Data-driven compound identification with atmospheric mass spectrometry* |
-| <span class="cv-year">2026</span> | **Contributed talk** — Condensed Matter Concepts and Simulation Conference (CCSC 2026), Munich, Germany. *Towards atmospheric compound identification using simulated electron ionization mass spectra* |
+| <span class="cv-year">2026</span> | **Contributed talk** — Chemical Compounds Space Conference (CCSC 2026), Munich, Germany. *Towards atmospheric compound identification using simulated electron ionization mass spectra* |
 | <span class="cv-year">2025</span> | **Keynote** — Atmospheric day, Sweden. *CLOUDMAP – Advanced identification of atmospheric compounds* |
 | <span class="cv-year">2025</span> | **Invited talk** — Nordic Workshop on AI for Climate Change, Sweden. *Machine learning for atmospheric mass spectrometry* |
 | <span class="cv-year">2024</span> | **Invited talk** — FysKemDagarna (Physics and Chemistry Days), Sweden. *AI in Chemistry: Solving experimental challenges with artificial intelligence* |
