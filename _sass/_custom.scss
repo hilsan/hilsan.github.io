@@ -23,6 +23,39 @@
   white-space: nowrap;
 }
 
+// Print styles for the CV page (also applied when user prints from browser)
+@media print {
+  nav.navbar,
+  footer,
+  #back-to-top,
+  #light-toggle,
+  #cv-pdf-download {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding-top: 0 !important;
+  }
+
+  a {
+    color: #000000 !important;
+    text-decoration: none !important;
+  }
+
+  .cv-year {
+    background-color: #2698ba !important;
+    color: #ffffff !important;
+    print-color-adjust: exact !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+
+  h2, h3 { page-break-after: avoid; }
+  table   { page-break-inside: auto; }
+  tr      { page-break-inside: avoid; page-break-after: auto; }
+}
+
 // News section: ensure text is always readable in both light and dark modes
 .news {
   table {

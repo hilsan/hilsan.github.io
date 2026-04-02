@@ -1,0 +1,97 @@
+name: Generate CV PDF
+
+# Runs whenever CV content or styles change, or on manual trigger.
+# Builds the full Jekyll site, renders /cv/ to PDF with Puppeteer,
+# deploys the updated site (with PDF), and commits the PDF back to master
+# so the download button always serves the latest version.
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - "_pages/cv.md"
+      - "_sass/**"
+      - "assets/css/**"
+      - "_config.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-cv-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── Checkout ────────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so git push works cleanly
+
+      # ── Ruby / Jekyll ────────────────────────────────────────────────────────
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Setup Python (for nbconvert)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Build Jekyll site
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      # ── Node / Puppeteer ────────────────────────────────────────────────────
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Puppeteer
+        run: npm install puppeteer
+
+      # ── Generate PDF ─────────────────────────────────────────────────────────
+      - name: Serve site and render PDF
+        run: |
+          python3 -m http.server 4000 --directory _site &
+          SERVER_PID=$!
+          # Wait for server to be ready
+          for i in $(seq 1 10); do
+            curl -sf http://localhost:4000/cv/ > /dev/null 2>&1 && break
+            sleep 1
+          done
+          node scripts/print-cv.js
+          kill $SERVER_PID 2>/dev/null || true
+
+      # ── Copy PDF into _site so the deployed site includes it ────────────────
+      - name: Copy PDF into built site
+        run: |
+          mkdir -p _site/assets/pdf
+          cp assets/pdf/cv.pdf _site/assets/pdf/cv.pdf
+
+      # ── Deploy to GitHub Pages ───────────────────────────────────────────────
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+
+      # ── Commit PDF back to master for repo-level access ──────────────────────
+      # [skip ci] prevents this commit from re-triggering this workflow.
+      - name: Commit PDF to repository
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pdf/cv.pdf
+          if git diff --staged --quiet; then
+            echo "PDF unchanged — nothing to commit."
+          else
+            git commit -m "Auto-generate CV PDF [skip ci]"
+            git push
+          fi

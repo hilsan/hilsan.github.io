@@ -6,8 +6,8 @@ nav: true
 nav_order: 2
 ---
 
-<div class="text-center mb-4">
-  <a href="/assets/files/hilda_sandstrom_cv.pdf" target="_blank" class="btn btn-primary btn-sm">
+<div id="cv-pdf-download" class="text-center mb-4">
+  <a href="/assets/pdf/cv.pdf" target="_blank" class="btn btn-primary btn-sm">
     <i class="fa-solid fa-file-pdf"></i>&nbsp; Download PDF
   </a>
 </div>
