@@ -1,0 +1,242 @@
+/* ============================================================
+   cv-print.css — injected by print-cv.js for PDF generation only.
+   The web page is completely unaffected; this file is never linked
+   from any HTML template.
+
+   Target: compact 3-page A4 PDF from the Bootstrap-card CV layout.
+   ============================================================ */
+
+/* ── Page setup ──────────────────────────────────────────────── */
+@page {
+  size: A4;
+  margin: 1.1cm 1.4cm;
+}
+
+/* ── Hide all screen chrome ──────────────────────────────────── */
+nav.navbar,
+footer,
+#back-to-top,
+#light-toggle,
+.theme-toggle,
+#cv-pdf-download,
+.social-icons,
+.header-bar,
+progress#progress {
+  display: none !important;
+}
+
+/* ── Base typography ─────────────────────────────────────────── */
+body {
+  background: #ffffff !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  font-size: 9.8pt !important;
+  line-height: 1.3 !important;
+  color: #111111 !important;
+}
+
+a {
+  color: #111111 !important;
+  text-decoration: none !important;
+}
+
+/* ── Layout containers ───────────────────────────────────────── */
+.container,
+.container-md {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.post {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.cv {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ── Page heading (H1 from layout: page) ─────────────────────── */
+h1.post-title {
+  font-size: 14pt !important;
+  margin-bottom: 0.2cm !important;
+}
+
+/* ── Section cards: replace shaded box with a teal top rule ──── */
+.cv .card {
+  background: transparent !important;
+  border: none !important;
+  border-top: 1.5pt solid #2698ba !important;
+  border-radius: 0 !important;
+  padding: 0.18cm 0 0.1cm 0 !important;
+  margin-top: 0.22cm !important;
+  margin-bottom: 0 !important;
+  page-break-inside: avoid;
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
+
+/* ── Section headings ────────────────────────────────────────── */
+.cv .card-title {
+  font-size: 10pt !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #2698ba !important;
+  margin-bottom: 0.1cm !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
+
+/* ── List group items ────────────────────────────────────────── */
+.cv .list-group-flush {
+  padding: 0 !important;
+}
+
+.cv .list-group-flush .list-group-item {
+  padding: 0.08cm 0 !important;
+  border: none !important;
+  border-bottom: 0.4pt solid #dddddd !important;
+  background: transparent !important;
+  page-break-inside: avoid;
+}
+
+.cv .list-group-flush .list-group-item:last-child {
+  border-bottom: none !important;
+}
+
+/* ── Force date + content side-by-side (override Bootstrap stacking) ── */
+.cv .list-group-item .row {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: baseline !important;
+}
+
+.cv .list-group-item .col-md-2 {
+  flex: 0 0 2.7cm !important;
+  max-width: 2.7cm !important;
+  width: 2.7cm !important;
+  padding-right: 0.25cm !important;
+  padding-left: 0 !important;
+}
+
+.cv .list-group-item .col-md-10 {
+  flex: 1 1 auto !important;
+  max-width: none !important;
+  width: auto !important;
+  padding-left: 0 !important;
+  margin-top: 0 !important;  /* cancel Bootstrap mt-2 mt-md-0 */
+}
+
+/* Bootstrap's .mt-2 adds margin-top; cancel it in print */
+.cv .mt-2 {
+  margin-top: 0 !important;
+}
+
+/* ── Date labels ─────────────────────────────────────────────── */
+.cv-date {
+  font-size: 8.8pt !important;
+  font-weight: 600 !important;
+  color: #2698ba !important;
+  white-space: nowrap !important;
+  display: block !important;
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
+
+/* ── Entry content ───────────────────────────────────────────── */
+.cv-entry-title {
+  font-size: 9.8pt !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  margin-bottom: 0 !important;
+}
+
+.cv-entry-institution {
+  font-size: 9.3pt !important;
+  margin-bottom: 0 !important;
+  line-height: 1.25 !important;
+}
+
+.cv-entry-note {
+  font-size: 9.3pt !important;
+  margin-bottom: 0 !important;
+  line-height: 1.25 !important;
+}
+
+/* ── Bullet lists inside entries ─────────────────────────────── */
+.cv .list-group-item ul {
+  margin: 0.04cm 0 0 0 !important;
+  padding-left: 0.75cm !important;
+  font-size: 9.3pt !important;
+}
+
+.cv .list-group-item ul li {
+  margin-bottom: 0 !important;
+  line-height: 1.28 !important;
+}
+
+/* ── Sub-section labels (Lectures, Supervision, etc.) ───────── */
+.cv-subsection.list-group-item {
+  font-size: 8.5pt !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+  color: #666666 !important;
+  padding: 0.12cm 0 0.02cm 0 !important;
+  border-bottom: none !important;
+  background: transparent !important;
+}
+
+/* ── General Information table ───────────────────────────────── */
+.cv .table-cv-map {
+  font-size: 9.3pt !important;
+  margin-bottom: 0 !important;
+}
+
+.cv .table-cv-map td {
+  padding: 0.04cm 0.3cm 0.04cm 0 !important;
+  line-height: 1.3 !important;
+}
+
+/* ── Publications list ───────────────────────────────────────── */
+.cv-pub-list {
+  font-size: 9.3pt !important;
+  padding-left: 1.1cm !important;
+  margin: 0 !important;
+}
+
+.cv-pub-list li {
+  margin-bottom: 0.1cm !important;
+  line-height: 1.3 !important;
+}
+
+/* ── Citation stats paragraph above publications ─────────────── */
+.cv .card > p {
+  font-size: 9.3pt !important;
+  margin-bottom: 0.1cm !important;
+  line-height: 1.3 !important;
+}
+
+/* ── Skills / plain-text list items ─────────────────────────── */
+.cv .list-group-item[style],
+.cv .list-group-item > p {
+  font-size: 9.3pt !important;
+  margin: 0 !important;
+  line-height: 1.3 !important;
+}
+
+/* ── Core competences card paragraph ────────────────────────── */
+.cv .card > p.mb-0 {
+  font-size: 9.3pt !important;
+  line-height: 1.35 !important;
+  margin: 0 !important;
+}
+
+/* ── Page-break helpers ──────────────────────────────────────── */
+h1, h2, h3 { page-break-after: avoid !important; }
+.cv .card  { page-break-inside: avoid; }

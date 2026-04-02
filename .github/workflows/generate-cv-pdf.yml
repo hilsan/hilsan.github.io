@@ -12,6 +12,7 @@ on:
       - "_pages/cv.md"
       - "_sass/**"
       - "assets/css/**"
+      - "scripts/print-cv.js"
       - "_config.yml"
   workflow_dispatch:
 
