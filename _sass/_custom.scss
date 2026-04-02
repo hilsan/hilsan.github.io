@@ -29,6 +29,18 @@ html[data-theme="dark"] .cv .card {
   font-weight: 600;
   color: var(--global-theme-color);
   padding-top: 0.15rem;
+  white-space: nowrap;
+}
+
+// Cancel Bootstrap .row negative gutters inside cv entries so dates aren't clipped
+.cv .list-group-item .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.cv .list-group-item .col-md-2,
+.cv .list-group-item .col-md-10 {
+  padding-left: 0;
 }
 
 // Entry title
