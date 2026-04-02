@@ -1,0 +1,6 @@
+# Dependencies for fetch_publications.py
+# Install with:  pip install -r scripts/requirements.txt
+
+requests>=2.31
+scholarly>=1.7
+bibtexparser>=1.4,<2
