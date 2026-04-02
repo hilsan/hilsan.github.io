@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VILMA Scientific Advisory Board Meeting 2025 and Lucas' PhD Midterm"
+title: "VILMA scientific advisory board meeting 2025 and Lucas' PhD midterm"
 date: 2025-03-27
 categories: news
 ---
