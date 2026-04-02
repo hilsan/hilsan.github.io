@@ -37,21 +37,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/talks/";
           },
-        },{id: "dropdown-teaching-portfolio",
-              title: "teaching portfolio",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/teaching/";
-              },
-            },{id: "dropdown-outreach",
-              title: "outreach",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/outreach/";
-              },
-            },{id: "news-awarded-a-marie-skłodowska-curie-actions-msca-postdoctoral-fellowship-202-125-for-the-cloudmap-project-at-tu-munich-read-more",
+        },{id: "nav-teaching-portfolio",
+          title: "teaching portfolio",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-outreach",
+          title: "outreach",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/outreach/";
+          },
+        },{id: "news-awarded-a-marie-skłodowska-curie-actions-msca-postdoctoral-fellowship-202-125-for-the-cloudmap-project-at-tu-munich-read-more",
           title: 'Awarded a Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellowship (€202,125) for the CLOUDMAP project...',
           description: "",
           section: "News",},{id: "news-new-paper-published-in-geoscientific-model-development-similarity-based-analysis-of-atmospheric-organic-compounds-for-machine-learning-applications-read-more",
