@@ -95,11 +95,9 @@ html[data-theme="dark"] .cv .card {
   border-color: var(--global-divider-color);
 }
 
-// PDF download link (top right of page)
+// PDF download link (above CV cards)
 #cv-pdf-download {
-  float: right;
-  margin-top: -0.25rem;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: var(--global-theme-color);
   &:hover { opacity: 0.75; }
 }

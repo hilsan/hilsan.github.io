@@ -6,7 +6,11 @@ nav: true
 nav_order: 2
 ---
 
-<a href="/assets/pdf/cv.pdf" target="_blank" id="cv-pdf-download" title="Download PDF"><i class="fa-solid fa-file-pdf fa-lg"></i></a>
+<div class="text-right mb-2">
+  <a href="/assets/pdf/cv.pdf" target="_blank" id="cv-pdf-download">
+    <i class="fa-solid fa-file-pdf"></i> Download PDF
+  </a>
+</div>
 
 <div class="cv">
 
@@ -21,6 +25,12 @@ nav_order: 2
   <tr><td>ORCID</td><td><a href="https://orcid.org/0000-0001-7845-1088" target="_blank">0000-0001-7845-1088</a></td></tr>
   <tr><td>Google Scholar</td><td><a href="https://scholar.google.com/citations?user=dU-qQwQAAAAJ" target="_blank">scholar.google.com</a></td></tr>
 </table>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ Core Competences -->
+<div class="card mt-3 p-3">
+<h3 class="card-title">Core Competences</h3>
+<p class="mb-0" style="font-size:0.91rem;">Scientific leadership · Project management · Molecular modelling &amp; simulation · Structure prediction · Cheminformatics · Machine learning for chemistry · High-performance computing (HPC) · Student supervision &amp; mentoring · Interdisciplinary collaboration · Scientific communication</p>
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════ Experience -->
@@ -298,9 +308,6 @@ nav_order: 2
 <h3 class="card-title">Skills and Competences</h3>
 <ul class="list-group list-group-flush">
 
-  <li class="list-group-item cv-subsection">Core competences</li>
-  <li class="list-group-item" style="font-size:0.91rem;">Scientific leadership · Project management · Molecular modelling &amp; simulation · Structure prediction · Cheminformatics · Machine learning for chemistry · High-performance computing (HPC) · Student supervision &amp; mentoring · Interdisciplinary collaboration · Scientific communication</li>
-
   <li class="list-group-item cv-subsection">Programming</li>
   <li class="list-group-item" style="font-size:0.91rem;">Python, MATLAB, Bash — Well experienced</li>
 
@@ -548,10 +555,5 @@ nav_order: 2
 </ul>
 </div>
 
-<!-- ═══════════════════════════════════════════════════ Conference Posters -->
-<div class="card mt-3 p-3">
-<h3 class="card-title">Conference Posters</h3>
-<p style="font-size:0.91rem;color:var(--global-text-color-light);font-style:italic;">To be added.</p>
-</div>
 
 </div><!-- end .cv -->

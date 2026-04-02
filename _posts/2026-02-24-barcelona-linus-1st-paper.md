@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First time thesis opponent in Barcelona and Linus' first paper out!"
+title: "First time thesis opponent in Barcelona and Linus' first paper out"
 date: 2026-02-24
 categories: news
 ---

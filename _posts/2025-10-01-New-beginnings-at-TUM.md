@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Guten Tag Munich and TUM!"
+title: "Guten Tag Munich and TUM"
 date: 2025-10-01
 categories: news
 excerpt: "Starting my 2-year MSCA-funded project 'Cloudmap' at TUM! Asta joins the adventure."

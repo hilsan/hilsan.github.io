@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New personal webpage live!"
+title: "New personal webpage live"
 date: 2024-11-21
 categories: news
 ---
