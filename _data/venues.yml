@@ -1,0 +1,50 @@
+"QRB":
+  url: https://www.cambridge.org/core/journals/qrb-discovery
+  color: "#5a3e8f"
+
+"PNAS":
+  url: https://www.pnas.org/
+  color: "#1a5276"
+
+"ACS ES&T Air":
+  url: https://pubs.acs.org/journal/aesac7
+  color: "#2e86c1"
+
+"GMD":
+  url: https://www.geoscientific-model-development.net/
+  color: "#1e8449"
+
+"Astrobiology":
+  url: https://www.liebertpub.com/journal/ast
+  color: "#1a5276"
+
+"ACP":
+  url: https://www.atmospheric-chemistry-and-physics.net/
+  color: "#1e8449"
+
+"PCCP":
+  url: https://www.rsc.org/journals-books-databases/find-an-journal/journals/PCCP/
+  color: "#922b21"
+
+"Adv. Sci.":
+  url: https://onlinelibrary.wiley.com/journal/21983844
+  color: "#d4ac0d"
+
+"ACSESC":
+  url: https://pubs.acs.org/journal/aesccq
+  color: "#2e86c1"
+
+"JPCA":
+  url: https://pubs.acs.org/journal/jpcafh
+  color: "#2e86c1"
+
+"Sci. Adv.":
+  url: https://www.science.org/journal/sciadv
+  color: "#c0392b"
+
+"DMID":
+  url: https://www.sciencedirect.com/journal/diagnostic-microbiology-and-infectious-disease
+  color: "#717d7e"
+
+"PhD Thesis":
+  color: "#6c3483"
