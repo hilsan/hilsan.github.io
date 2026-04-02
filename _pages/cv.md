@@ -22,42 +22,81 @@ Scientific leadership · Project management · Molecular modelling & simulation 
 
 ## Professional and Academic Career
 
-**Since 10/2025 — Marie Skłodowska-Curie postdoctoral researcher**
-*Technical University of Munich, Germany*
-Main project: Machine learning–based compound identification with mass spectrometry
-- Developed machine learning models for mass spectrometry signal prediction and dataset similarity analysis.
-- Develop protocols for simulating mass spectrometry data for atmospheric compounds.
-- Coordinated interdisciplinary projects and supervised students.
+<div class="cv-block">
+  <div class="cv-block-date">Since 10/2025</div>
+  <div class="cv-block-title">Marie Skłodowska-Curie postdoctoral researcher</div>
+  <div class="cv-block-institution">Technical University of Munich, Germany</div>
+  <div class="cv-block-note">Main project: Machine learning–based compound identification with mass spectrometry</div>
+  <ul>
+    <li>Developed machine learning models for mass spectrometry signal prediction and dataset similarity analysis.</li>
+    <li>Develop protocols for simulating mass spectrometry data for atmospheric compounds.</li>
+    <li>Coordinated interdisciplinary projects and supervised students.</li>
+  </ul>
+</div>
 
-**9/2022 – 9/2025 — Postdoctoral researcher**
-*Aalto University, Finland*
-Main project: Machine learning–based compound identification with mass spectrometry
-- Developed machine learning models for mass spectrometry signal prediction and dataset similarity analysis.
-- Designed molecular descriptors enabling interpretable machine learning models.
-- Benchmarked models and descriptors for reaction rate prediction.
-- Coordinated interdisciplinary projects and supervised students.
+<div class="cv-block">
+  <div class="cv-block-date">9/2024 – 9/2025</div>
+  <div class="cv-block-title">Visiting postdoctoral researcher</div>
+  <div class="cv-block-institution">University of Gothenburg, Sweden</div>
+  <div class="cv-block-note">Simulated mass spectrometry signals using machine learning models, molecular dynamics, reaction exploration and quantum chemistry.</div>
+</div>
 
-**9/2017 – 5/2022 — Early-stage researcher (PhD)**
-*Chalmers University of Technology, Sweden*
-Main project: Kinetic modeling and molecular structure prediction in polymerization reactions
-- Applied steered molecular dynamics, density functional theory, umbrella sampling, and metadynamics for reaction pathway exploration and free-energy profiling.
-- Predicted crystal structures of molecular co-crystals and identified plausible reaction products from kinetics/thermodynamics.
-- Coordinated multi-site collaborations on crystal structure prediction and lipid conformer analysis; advised students.
+<div class="cv-block">
+  <div class="cv-block-date">9/2022 – 9/2025</div>
+  <div class="cv-block-title">Postdoctoral researcher</div>
+  <div class="cv-block-institution">Aalto University, Finland</div>
+  <div class="cv-block-note">Main project: Machine learning–based compound identification with mass spectrometry</div>
+  <ul>
+    <li>Developed machine learning models for mass spectrometry signal prediction and dataset similarity analysis.</li>
+    <li>Designed molecular descriptors enabling interpretable machine learning models.</li>
+    <li>Benchmarked models and descriptors for reaction rate prediction.</li>
+    <li>Coordinated interdisciplinary projects and supervised students.</li>
+  </ul>
+</div>
 
-**9/2024 – 9/2025 — Visiting postdoctoral researcher**
-*University of Gothenburg, Sweden*
-Simulated mass spectrometry signals using machine learning models, molecular dynamics, reaction exploration and quantum chemistry.
+<div class="cv-block">
+  <div class="cv-block-date">9/2017 – 5/2022</div>
+  <div class="cv-block-title">Early-stage researcher (PhD)</div>
+  <div class="cv-block-institution">Chalmers University of Technology, Sweden</div>
+  <div class="cv-block-note">Main project: Kinetic modeling and molecular structure prediction in polymerization reactions</div>
+  <ul>
+    <li>Applied steered molecular dynamics, density functional theory, umbrella sampling, and metadynamics for reaction pathway exploration and free-energy profiling.</li>
+    <li>Predicted crystal structures of molecular co-crystals and identified plausible reaction products from kinetics/thermodynamics.</li>
+    <li>Coordinated multi-site collaborations on crystal structure prediction and lipid conformer analysis; advised students.</li>
+  </ul>
+</div>
 
 ---
 
 ## Academic Studies
 
-| Period | Degree |
-|---|---|
-| <span class="cv-year">9/2017 – 5/2022</span> | **PhD in Chemistry** (Theoretical chemistry), Chalmers University of Technology, Sweden. Award date 02/06/2022. Thesis: *Nitriles in Prebiotic Chemistry and Astrobiology*. Supervisor: Prof. Martin Rahm. |
-| <span class="cv-year">8/2012 – 9/2017</span> | **MEng in Chemical engineering with engineering physics**, Chalmers University of Technology, Sweden. Award date 08/11/2017. |
-| <span class="cv-year">8/2015 – 9/2017</span> | **MSc in Engineering physics** (Nanotechnology master program, integrated), Chalmers University of Technology, Sweden. Award date 08/11/2017. |
-| <span class="cv-year">8/2012 – 6/2015</span> | **BSc in Chemical engineering with engineering physics** (integrated), Chalmers University of Technology, Sweden. Award date 12/06/2015. |
+<div class="cv-block">
+  <div class="cv-block-date">9/2017 – 5/2022</div>
+  <div class="cv-block-title">PhD in Chemistry (Theoretical chemistry)</div>
+  <div class="cv-block-institution">Chalmers University of Technology, Sweden</div>
+  <div class="cv-block-note">Award date 02/06/2022. Thesis: <em>Nitriles in Prebiotic Chemistry and Astrobiology</em>. Supervisor: Prof. Martin Rahm.</div>
+</div>
+
+<div class="cv-block">
+  <div class="cv-block-date">8/2012 – 9/2017</div>
+  <div class="cv-block-title">MEng in Chemical engineering with engineering physics</div>
+  <div class="cv-block-institution">Chalmers University of Technology, Sweden</div>
+  <div class="cv-block-note">Award date 08/11/2017.</div>
+</div>
+
+<div class="cv-block">
+  <div class="cv-block-date">8/2015 – 9/2017</div>
+  <div class="cv-block-title">MSc in Engineering physics (Nanotechnology master program, integrated)</div>
+  <div class="cv-block-institution">Chalmers University of Technology, Sweden</div>
+  <div class="cv-block-note">Award date 08/11/2017.</div>
+</div>
+
+<div class="cv-block">
+  <div class="cv-block-date">8/2012 – 6/2015</div>
+  <div class="cv-block-title">BSc in Chemical engineering with engineering physics (integrated)</div>
+  <div class="cv-block-institution">Chalmers University of Technology, Sweden</div>
+  <div class="cv-block-note">Award date 12/06/2015.</div>
+</div>
 
 ---
 

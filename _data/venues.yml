@@ -1,50 +1,58 @@
 "QRB":
   url: https://www.cambridge.org/core/journals/qrb-discovery
-  color: "#5a3e8f"
+  color: "#2698ba"
 
 "PNAS":
   url: https://www.pnas.org/
-  color: "#1a5276"
+  color: "#2698ba"
 
 "ACS ES&T Air":
   url: https://pubs.acs.org/journal/aesac7
-  color: "#2e86c1"
+  color: "#2698ba"
 
 "GMD":
   url: https://www.geoscientific-model-development.net/
-  color: "#1e8449"
+  color: "#2698ba"
 
 "Astrobiology":
   url: https://www.liebertpub.com/journal/ast
-  color: "#1a5276"
+  color: "#2698ba"
 
 "ACP":
   url: https://www.atmospheric-chemistry-and-physics.net/
-  color: "#1e8449"
+  color: "#2698ba"
 
 "PCCP":
   url: https://www.rsc.org/journals-books-databases/find-an-journal/journals/PCCP/
-  color: "#922b21"
+  color: "#2698ba"
 
 "Adv. Sci.":
   url: https://onlinelibrary.wiley.com/journal/21983844
-  color: "#d4ac0d"
+  color: "#2698ba"
 
 "ACSESC":
   url: https://pubs.acs.org/journal/aesccq
-  color: "#2e86c1"
+  color: "#2698ba"
 
 "JPCA":
   url: https://pubs.acs.org/journal/jpcafh
-  color: "#2e86c1"
+  color: "#2698ba"
+
+"JCP":
+  url: https://pubs.aip.org/aip/jcp
+  color: "#2698ba"
+
+"ACS Cent. Sci.":
+  url: https://pubs.acs.org/journal/acscii
+  color: "#2698ba"
 
 "Sci. Adv.":
   url: https://www.science.org/journal/sciadv
-  color: "#c0392b"
+  color: "#2698ba"
 
 "DMID":
   url: https://www.sciencedirect.com/journal/diagnostic-microbiology-and-infectious-disease
-  color: "#717d7e"
+  color: "#2698ba"
 
 "PhD Thesis":
-  color: "#6c3483"
+  color: "#2698ba"

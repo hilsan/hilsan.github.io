@@ -16,8 +16,9 @@ announcements:
   enabled: true
   scrollable: false
   limit: 5
-selected_papers: false
+selected_papers: true
 social: true
+no_footer: true
 ---
 
 Computational chemist at the Technical University of Munich, working with Prof. Patrick Rinke. My focus is on compound identification methods using a mixture of quantum chemistry and machine learning. My current position at TUM is as a Marie Curie fellow with the project [CLOUDMAP](https://cordis.europa.eu/project/id/101203938), which focuses on improving molecular-level identification of atmospheric compounds with mass spectrometry through data-driven methods. The results aim to advance understanding of chemical processes that drive particle formation, with implications for climate change and air pollution.

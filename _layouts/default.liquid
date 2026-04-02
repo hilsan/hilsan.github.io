@@ -47,8 +47,10 @@
       {% endif %}
     </div>
 
-    <!-- Footer -->
-    {% include footer.liquid %}
+    <!-- Footer (hidden on the about/index page) -->
+    {% unless page.no_footer %}
+      {% include footer.liquid %}
+    {% endunless %}
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
