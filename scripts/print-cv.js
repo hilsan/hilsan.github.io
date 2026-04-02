@@ -48,9 +48,24 @@ const PRINT_CSS_FILE = path.join(__dirname, "..", "assets", "css", "cv-print.css
     await page.pdf({
       path: OUT_FILE,
       format: "A4",
-      margin: { top: "0cm", right: "0cm", bottom: "0cm", left: "0cm" },
+      // Margins are set here (not via @page CSS) to avoid Puppeteer/CSS conflicts.
+      // Bottom is slightly larger to make room for the page-number footer.
+      margin: { top: "1.1cm", right: "1.4cm", bottom: "1.6cm", left: "1.4cm" },
       printBackground: false,
-      displayHeaderFooter: false,
+      displayHeaderFooter: true,
+      headerTemplate: "<span></span>",
+      footerTemplate: `
+        <div style="
+          font-family: Arial, sans-serif;
+          font-size: 9pt;
+          color: #666666;
+          width: 100%;
+          text-align: right;
+          padding-right: 1.4cm;
+          box-sizing: border-box;
+        ">
+          <span class="pageNumber"></span>&thinsp;/&thinsp;<span class="totalPages"></span>
+        </div>`,
     });
 
     console.log("Done.");

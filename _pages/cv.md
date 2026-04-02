@@ -304,7 +304,7 @@ nav_order: 2
 </div>
 
 <!-- ═══════════════════════════════════════════════════ Skills and Competences -->
-<div class="card mt-3 p-3">
+<div class="card mt-3 p-3" id="cv-skills">
 <h3 class="card-title">Skills and Competences</h3>
 <ul class="list-group list-group-flush">
 

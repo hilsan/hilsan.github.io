@@ -6,12 +6,6 @@
    Target: compact 3-page A4 PDF from the Bootstrap-card CV layout.
    ============================================================ */
 
-/* ── Page setup ──────────────────────────────────────────────── */
-@page {
-  size: A4;
-  margin: 1.1cm 1.4cm;
-}
-
 /* ── Hide all screen chrome ──────────────────────────────────── */
 nav.navbar,
 footer,
@@ -117,9 +111,9 @@ h1.post-title {
 }
 
 .cv .list-group-item .col-md-2 {
-  flex: 0 0 2.7cm !important;
-  max-width: 2.7cm !important;
-  width: 2.7cm !important;
+  flex: 0 0 3.4cm !important;
+  max-width: 3.4cm !important;
+  width: 3.4cm !important;
   padding-right: 0.25cm !important;
   padding-left: 0 !important;
 }
@@ -235,6 +229,18 @@ h1.post-title {
   font-size: 9.3pt !important;
   line-height: 1.35 !important;
   margin: 0 !important;
+}
+
+/* ── Skills card: 2-column layout to save vertical space ────── */
+#cv-skills .list-group-flush {
+  column-count: 2 !important;
+  column-gap: 0.6cm !important;
+}
+
+#cv-skills .list-group-item {
+  break-inside: avoid !important;
+  -webkit-column-break-inside: avoid !important;
+  display: block !important;
 }
 
 /* ── Page-break helpers ──────────────────────────────────────── */
