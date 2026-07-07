@@ -72,6 +72,12 @@ ninja.data = [{
           section: "News",},{id: "news-invited-talk-at-the-university-of-glasgow-network-on-mathematical-data-science-for-materials-science-workshop-data-driven-compound-identification-with-atmospheric-mass-spectrometry",
           title: 'Invited talk at the University of Glasgow (Network on Mathematical Data Science for...',
           description: "",
+          section: "News",},{id: "news-invited-talk-at-the-university-of-gothenburg-data-driven-mass-spectrometry-for-atmospheric-compound-identification",
+          title: 'Invited talk at the University of Gothenburg: Data-driven mass spectrometry for atmospheric compound...',
+          description: "",
+          section: "News",},{id: "news-contributed-talk-at-the-jpgu-agu-joint-meeting-2026-chiba-japan-towards-atmospheric-compound-identification-using-simulated-electron-ionization-mass-spectra-also-served-as-a-poster-judge-at-the-meeting",
+          title: 'Contributed talk at the JpGU-AGU Joint Meeting 2026 (Chiba, Japan): Towards Atmospheric Compound...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
