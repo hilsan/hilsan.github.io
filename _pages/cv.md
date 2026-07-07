@@ -254,7 +254,7 @@ nav_order: 2
 
   <li class="list-group-item">
     <div class="row">
-      <div class="col-md-2"><span class="cv-date">Since 2024</span></div>
+      <div class="col-md-2"><span class="cv-date">2024–2025</span></div>
       <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Supervisor of MSc student — Aalto University</div></div>
     </div>
   </li>
@@ -262,7 +262,7 @@ nav_order: 2
   <li class="list-group-item">
     <div class="row">
       <div class="col-md-2"><span class="cv-date">Since 2024</span></div>
-      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Advisor of PhD student — Aalto University</div></div>
+      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Advisor of 2 PhD students — Aalto University</div></div>
     </div>
   </li>
 
@@ -275,50 +275,8 @@ nav_order: 2
 
   <li class="list-group-item">
     <div class="row">
-      <div class="col-md-2"><span class="cv-date">11/2024 – 5/2024</span></div>
-      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Supervisor of BSc student — Aalto University</div></div>
-    </div>
-  </li>
-
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-md-2"><span class="cv-date">5/2021 – 9/2021</span></div>
-      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Co-supervisor of 2 visiting and 3 BSc students — Chalmers University of Technology</div></div>
-    </div>
-  </li>
-
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-md-2"><span class="cv-date">1/2021 – 6/2021</span></div>
-      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Co-supervisor of 6 BSc students — Chalmers University of Technology</div></div>
-    </div>
-  </li>
-
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-md-2"><span class="cv-date">6/2020 – 8/2020</span></div>
-      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Supervisor of 2 BSc students — Chalmers University of Technology</div></div>
-    </div>
-  </li>
-
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-md-2"><span class="cv-date">1/2020 – 6/2020</span></div>
-      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Supervisor of 6 BSc students — Chalmers University of Technology</div></div>
-    </div>
-  </li>
-
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-md-2"><span class="cv-date">4/2019 – 7/2019</span></div>
-      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Supervisor of visiting BSc students — Chalmers University of Technology</div></div>
-    </div>
-  </li>
-
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-md-2"><span class="cv-date">4/2018 – 6/2018</span></div>
-      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Supervisor of one BSc student — Chalmers University of Technology</div></div>
+      <div class="col-md-2"><span class="cv-date">2018–2024</span></div>
+      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Supervised or co-supervised 22 BSc and visiting undergraduate students — Chalmers University of Technology, Aalto University</div></div>
     </div>
   </li>
 
@@ -479,8 +437,8 @@ nav_order: 2
 
   <li class="list-group-item">
     <div class="row">
-      <div class="col-md-2"><span class="cv-date">2025</span></div>
-      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Core member, organizer and Finland representative — Climate AI Nordics Network</div></div>
+      <div class="col-md-2"><span class="cv-date">Since 2025</span></div>
+      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Core member, organizer and Finland representative — Climate AI Nordics Network; contributes job ads to the monthly newsletter</div></div>
     </div>
   </li>
 
