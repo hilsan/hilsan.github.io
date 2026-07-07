@@ -312,6 +312,17 @@ nav_order: 2
     </div>
   </li>
 
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2"><span class="cv-date">3/2025 – 4/2025</span></div>
+      <div class="col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-title">Cooking Open Science!</div>
+        <div class="cv-entry-institution">Aalto University</div>
+        <div class="cv-entry-note">Blended course on open science principles for doctoral and postdoctoral researchers</div>
+      </div>
+    </div>
+  </li>
+
   <li class="list-group-item cv-subsection">Language courses</li>
 
   <li class="list-group-item">

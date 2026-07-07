@@ -8,10 +8,8 @@ social-share: true
 tags: [HPC, teaching, training, German, TUM]
 ---
 
-Before heading into summer vacation, a quick round-up of the training I've squeezed in over the past several months.
+Before summer vacation, a quick recap of the training I've done this year.
 
-I spent the first half of the year working through **German for Researchers** at the TUM Language Center, going from A1.2 (autumn 2025) to A2.2 (spring 2026) — *Sprachenlernen* alongside a full research job is no joke, but *es hat sich gelohnt*.
+I finished two German courses at the TUM Language Center, going from A1.2 in autumn 2025 to A2.2 this spring. I was really looking forward to the Doctoral Supervision Training, a joint leadership course run by Helmholtz, the Max Planck Society, LMU Munich and TUM, and it delivered: coaching styles, communication and feedback techniques, and health, all things you run into constantly when working in teams or supervising students. I also did a TUM ProLehre workshop on supervising student theses.
 
-I also completed the **Doctoral Supervision Training**, a joint leadership-skills program run by Helmholtz, the Max Planck Society, LMU Munich, and TUM, and a TUM ProLehre workshop on **Supervising Students' Theses** — both timely given I'm now advising two PhD students at Aalto.
-
-The last one was the most fun: the **CSC Summer School in High-Performance Computing 2026**, ten days in Nuuksio, Finland, digging into HPC programming with C++ and getting a much better feel for how these programs actually work under the hood. Also featured: sauna, hiking, canoeing, lake swimming, and karaoke — a great way to close out the training season before summer break.
+The most immersive one was the CSC Summer School in High Performance Computing, ten days in Nuuksio, Finland learning HPC programming with C++. There was also sauna, hiking, canoeing, lake swimming and karaoke, so a great way to end the season before summer break.

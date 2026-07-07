@@ -29,7 +29,7 @@ nav_order: 5
   <li>
     <div class="row">
       <div class="col-sm-10">
-        <div class="title"><strong>Contributed.</strong> JpGU-AGU Joint Meeting 2026 (Chiba, Japan)</div>
+        <div class="title"><strong>Contributed.</strong> <a href="https://www.jpgu.org/meeting_e2026/" target="_blank">JpGU-AGU Joint Meeting 2026</a> (Chiba, Japan)</div>
         <div class="author"><em>Towards Atmospheric Compound Identification Using Simulated Electron Ionization Mass Spectra</em></div>
       </div>
     </div>
