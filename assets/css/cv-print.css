@@ -11,7 +11,10 @@ nav.navbar,
 footer,
 #back-to-top,
 #light-toggle,
+.theme-toggle,
 #cv-pdf-download,
+.social-icons,
+.header-bar,
 progress#progress {
   display: none !important;
 }
@@ -32,7 +35,8 @@ a {
 }
 
 /* ── Layout containers ───────────────────────────────────────── */
-.container {
+.container,
+.container-md {
   max-width: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
