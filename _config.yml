@@ -286,7 +286,7 @@ enable_masonry: false
 enable_math: true
 enable_tooltips: false
 enable_darkmode: true
-enable_navbar_social: true
+enable_navbar_social: false
 enable_project_categories: false
 enable_medium_zoom: true
 enable_progressbar: true
