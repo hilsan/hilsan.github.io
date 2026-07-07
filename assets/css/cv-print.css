@@ -67,7 +67,6 @@ h1.post-title {
   padding: 0.18cm 0 0.1cm 0 !important;
   margin-top: 0.22cm !important;
   margin-bottom: 0 !important;
-  page-break-inside: avoid;
   -webkit-print-color-adjust: exact !important;
   print-color-adjust: exact !important;
 }
@@ -254,4 +253,3 @@ h1.post-title {
 
 /* ── Page-break helpers ──────────────────────────────────────── */
 h1, h2, h3 { page-break-after: avoid !important; }
-.cv .card  { page-break-inside: avoid; }
