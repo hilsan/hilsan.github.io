@@ -76,7 +76,7 @@ ninja.data = [{
           title: 'Invited talk at the University of Gothenburg: Data-driven mass spectrometry for atmospheric compound...',
           description: "",
           section: "News",},{id: "news-contributed-talk-at-the-jpgu-agu-joint-meeting-2026-chiba-japan-towards-atmospheric-compound-identification-using-simulated-electron-ionization-mass-spectra-also-served-as-a-poster-judge-at-the-meeting-read-more",
-          title: 'Contributed talk at the JpGU-AGU Joint Meeting 2026 (Chiba, Japan): Towards Atmospheric Compound...',
+          title: 'Contributed talk at the JpGU-AGU Joint Meeting 2026 (Chiba, Japan): Towards atmospheric compound...',
           description: "",
           section: "News",},{
       id: 'light-theme',
