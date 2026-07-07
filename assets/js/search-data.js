@@ -21,7 +21,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/index.html";
+            window.location.href = "/news/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -66,10 +66,10 @@ ninja.data = [{
           section: "News",},{id: "news-first-time-thesis-opponent-in-barcelona-for-niccolò-bancone-uab-and-linus-first-first-author-paper-published-read-more",
           title: 'First time thesis opponent in Barcelona for Niccolò Bancone (UAB), and Linus’ first...',
           description: "",
-          section: "News",},{id: "news-contributed-talk-at-chemical-compounds-space-conference-ccsc-2026-munich-germany-towards-atmospheric-compound-identification-using-simulated-electron-ionization-mass-spectra",
+          section: "News",},{id: "news-contributed-talk-at-chemical-compounds-space-conference-ccsc-2026-munich-germany-towards-atmospheric-compound-identification-using-simulated-electron-ionization-mass-spectra-read-more",
           title: 'Contributed talk at Chemical Compounds Space Conference (CCSC 2026) (Munich, Germany): Towards atmospheric...',
           description: "",
-          section: "News",},{id: "news-invited-talk-at-the-university-of-glasgow-network-on-mathematical-data-science-for-materials-science-workshop-data-driven-compound-identification-with-atmospheric-mass-spectrometry",
+          section: "News",},{id: "news-invited-talk-at-the-university-of-glasgow-network-on-mathematical-data-science-for-materials-science-workshop-data-driven-compound-identification-with-atmospheric-mass-spectrometry-read-more",
           title: 'Invited talk at the University of Glasgow (Network on Mathematical Data Science for...',
           description: "",
           section: "News",},{id: "news-invited-talk-at-the-university-of-gothenburg-data-driven-mass-spectrometry-for-atmospheric-compound-identification",
