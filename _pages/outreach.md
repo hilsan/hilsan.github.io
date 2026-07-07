@@ -13,10 +13,11 @@ nav_order: 7
   <li>
     <div class="row">
       <div class="col-sm-10">
-        <div class="title"><strong>Climate AI Nordics (CAIN) — Core team member</strong></div>
+        <div class="title"><strong>Climate AI Nordics (CAIN) — Core team member (since 2025)</strong></div>
         <div class="author">Stockholm, Sweden · Representative for Finland</div>
         <div class="periodical">
           A network for AI technology in climate research with over 100 members from the Nordic countries.
+          Contributes job ads to the monthly newsletter.
           See: <a href="https://climateainordics.com/">climateainordics.com</a>
         </div>
       </div>

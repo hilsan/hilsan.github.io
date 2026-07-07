@@ -1,1 +1,1 @@
-My personal webpage. Still under construction. jekyll theme: elegant.
+My personal webpage. Jekyll theme: al-folio.

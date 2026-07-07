@@ -48,9 +48,9 @@ max_width: 930px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 
-serve_og_meta: false
-serve_schema_org: false
-og_image:
+serve_og_meta: true
+serve_schema_org: true
+og_image: https://hilsan.github.io/assets/img/photo_hilda-sandstroem.jpg
 
 # -----------------------------------------------------------------------------
 # Analytics
@@ -286,7 +286,7 @@ enable_masonry: false
 enable_math: true
 enable_tooltips: false
 enable_darkmode: true
-enable_navbar_social: false
+enable_navbar_social: true
 enable_project_categories: false
 enable_medium_zoom: true
 enable_progressbar: true

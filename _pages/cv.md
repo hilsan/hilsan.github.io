@@ -46,9 +46,9 @@ nav_order: 2
         <div class="cv-entry-institution">Technical University of Munich, Germany</div>
         <div class="cv-entry-note">Main project: Machine learning–based compound identification with mass spectrometry</div>
         <ul>
-          <li>Developed machine learning models for mass spectrometry signal prediction and dataset similarity analysis.</li>
+          <li>Develop machine learning models for mass spectrometry signal prediction and dataset similarity analysis.</li>
           <li>Develop protocols for simulating mass spectrometry data for atmospheric compounds.</li>
-          <li>Coordinated interdisciplinary projects and supervised students.</li>
+          <li>Coordinate interdisciplinary projects and supervise students.</li>
         </ul>
       </div>
     </div>
@@ -476,7 +476,7 @@ nav_order: 2
 <!-- ════════════════════════════════════════════════════════════ Publications -->
 <div class="card mt-3 p-3">
 <h3 class="card-title">Peer-Reviewed Publications</h3>
-<p style="font-size:0.88rem;margin-bottom:0.8rem;"><em>15 peer-reviewed articles, 6 first author. Total citations: 141, h-index: 5, i10-index: 5 — <a href="https://scholar.google.com/citations?user=dU-qQwQAAAAJ" target="_blank">Google Scholar</a>, updated 2 April 2026</em></p>
+<p style="font-size:0.88rem;margin-bottom:0.8rem;"><em>15 peer-reviewed articles, 6 first author. Total citations: 157, h-index: 6, i10-index: 5 — <a href="https://scholar.google.com/citations?user=dU-qQwQAAAAJ" target="_blank">Google Scholar</a>, updated 7 July 2026</em></p>
 <ol class="cv-pub-list" reversed>
   <li>Cappelletti, M., <strong>Sandström, H.</strong>, &amp; Rahm, M. <em>ACS Central Science</em>, 12, 111–121 (2026). DOI: <a href="https://doi.org/10.1021/acscentsci.5c01497" target="_blank">10.1021/acscentsci.5c01497</a>.</li>
   <li>Lind, L., <strong>Sandström, H.</strong>, &amp; Rinke, P. <em>The Journal of Chemical Physics</em>, 164 (2026). DOI: <a href="https://doi.org/10.1063/5.0308548" target="_blank">10.1063/5.0308548</a>.</li>
