@@ -13,8 +13,24 @@ nav_order: 5
   <li>
     <div class="row">
       <div class="col-sm-10">
+        <div class="title"><strong>Invited.</strong> University of Gothenburg, Sweden</div>
+        <div class="author"><em>Data-driven mass spectrometry for atmospheric compound identification</em></div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="row">
+      <div class="col-sm-10">
         <div class="title"><strong>Invited.</strong> Network on Mathematical Data Science for Materials Science — Workshop on the Interface of Mathematics and Machine Learning for Applications in Materials Science (University of Glasgow, UK)</div>
         <div class="author"><em>Data-driven compound identification with atmospheric mass spectrometry</em></div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="row">
+      <div class="col-sm-10">
+        <div class="title"><strong>Contributed.</strong> JpGU-AGU Joint Meeting 2026 (Chiba, Japan)</div>
+        <div class="author"><em>Towards Atmospheric Compound Identification Using Simulated Electron Ionization Mass Spectra</em></div>
       </div>
     </div>
   </li>

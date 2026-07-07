@@ -219,6 +219,28 @@ nav_order: 2
 
   <li class="list-group-item">
     <div class="row">
+      <div class="col-md-2"><span class="cv-date">2/2026 – 4/2026</span></div>
+      <div class="col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-title">Doctoral Supervision Training</div>
+        <div class="cv-entry-institution">Joint leadership-skills training — Helmholtz, Max Planck Society, LMU Munich &amp; TUM, Munich</div>
+        <div class="cv-entry-note">26 Feb – 30 Apr 2026. 32 hours equivalent.</div>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2"><span class="cv-date">WS 2025/26</span></div>
+      <div class="col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-title">Supervising Students' Theses</div>
+        <div class="cv-entry-institution">TUM ProLehre, online workshop</div>
+        <div class="cv-entry-note">9 hours, Category E — Advising &amp; Counseling</div>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
       <div class="col-md-2"><span class="cv-date">2019</span></div>
       <div class="col-md-10 mt-2 mt-md-0">
         <div class="cv-entry-title">Teaching, learning and evaluation</div>
@@ -303,6 +325,62 @@ nav_order: 2
 </ul>
 </div>
 
+<!-- ══════════════════════════════════════════════════ Professional Development -->
+<div class="card mt-3 p-3">
+<h3 class="card-title">Professional Development</h3>
+<ul class="list-group list-group-flush">
+
+  <li class="list-group-item cv-subsection">Training</li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2"><span class="cv-date">6–7/2026</span></div>
+      <div class="col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-title">CSC Summer School in High-Performance Computing 2026</div>
+        <div class="cv-entry-institution">CSC – IT Center for Science, Nuuksio, Finland</div>
+        <div class="cv-entry-note">23 June – 2 July 2026. HPC programming with C++. 5 ECTS or 70 hours.</div>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2"><span class="cv-date">2/2026 – 4/2026</span></div>
+      <div class="col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-title">Doctoral Supervision Training</div>
+        <div class="cv-entry-institution">Joint leadership-skills training — Helmholtz, Max Planck Society, LMU Munich &amp; TUM, Munich</div>
+        <div class="cv-entry-note">26 Feb – 30 Apr 2026. 32 hours equivalent.</div>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item cv-subsection">Language courses</li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2"><span class="cv-date">10–12/2025</span></div>
+      <div class="col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-title">German for Researchers, A1.2</div>
+        <div class="cv-entry-institution">TUM Language Center</div>
+        <div class="cv-entry-note">Grade: 1.3 (very good) · 2 SWS</div>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2"><span class="cv-date">1–3/2026</span></div>
+      <div class="col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-title">German for Researchers, A2.2</div>
+        <div class="cv-entry-institution">TUM Language Center</div>
+        <div class="cv-entry-note">Grade: 2.0 (good) · 2 SWS</div>
+      </div>
+    </div>
+  </li>
+
+</ul>
+</div>
+
 <!-- ═══════════════════════════════════════════════════ Skills and Competences -->
 <div class="card mt-3 p-3" id="cv-skills">
 <h3 class="card-title">Skills and Competences</h3>
@@ -324,7 +402,7 @@ nav_order: 2
   <li class="list-group-item" style="font-size:0.91rem;">Git — Experienced</li>
 
   <li class="list-group-item cv-subsection">Languages</li>
-  <li class="list-group-item" style="font-size:0.91rem;">Swedish (Excellent) · English (Excellent) · Italian (Intermediate) · French (Basic)</li>
+  <li class="list-group-item" style="font-size:0.91rem;">Swedish (Excellent) · English (Excellent) · Italian (Intermediate) · German (A2) · French (Basic)</li>
 
 </ul>
 </div>
@@ -370,6 +448,13 @@ nav_order: 2
 <div class="card mt-3 p-3">
 <h3 class="card-title">Academic Service</h3>
 <ul class="list-group list-group-flush">
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2"><span class="cv-date">2026</span></div>
+      <div class="col-md-10 mt-2 mt-md-0"><div class="cv-entry-note">Poster judge — JpGU-AGU Joint Meeting 2026, Chiba, Japan</div></div>
+    </div>
+  </li>
 
   <li class="list-group-item">
     <div class="row">
@@ -464,6 +549,16 @@ nav_order: 2
     <div class="row">
       <div class="col-md-2"><span class="cv-date">2026</span></div>
       <div class="col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-title">Data-driven mass spectrometry for atmospheric compound identification</div>
+        <div class="cv-entry-institution">University of Gothenburg, Sweden</div>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2"><span class="cv-date">2026</span></div>
+      <div class="col-md-10 mt-2 mt-md-0">
         <div class="cv-entry-title">Data-driven compound identification with atmospheric mass spectrometry</div>
         <div class="cv-entry-institution">Network on Mathematical Data Science for Materials Science, Workshop on the Interface of Mathematics and Machine Learning for Applications in Materials Science — University of Glasgow, UK</div>
       </div>
@@ -501,6 +596,16 @@ nav_order: 2
   </li>
 
   <li class="list-group-item cv-subsection">Contributed talks</li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2"><span class="cv-date">2026</span></div>
+      <div class="col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-title">Towards Atmospheric Compound Identification Using Simulated Electron Ionization Mass Spectra</div>
+        <div class="cv-entry-institution">JpGU-AGU Joint Meeting 2026, Chiba, Japan</div>
+      </div>
+    </div>
+  </li>
 
   <li class="list-group-item">
     <div class="row">
