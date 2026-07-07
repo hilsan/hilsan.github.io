@@ -5,7 +5,6 @@ date: 2026-07-07
 categories: news
 excerpt: "HPC summer school, doctoral supervision training, and two German courses before the summer break."
 social-share: true
-tags: [HPC, teaching, training, German, TUM]
 ---
 
 Before summer vacation, a quick recap of the training I've done this year.
