@@ -71,6 +71,8 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so the CV PDF commit-back step can push cleanly
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
@@ -97,8 +99,46 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+
+      # ── CV PDF generation (Node / Puppeteer) ─────────────────────────────
+      - name: Setup Node 🟢
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install Puppeteer
+        run: npm install puppeteer
+      - name: Render CV to PDF 📄
+        run: |
+          python3 -m http.server 4000 --directory _site &
+          SERVER_PID=$!
+          for i in $(seq 1 10); do
+            curl -sf http://localhost:4000/cv/ > /dev/null 2>&1 && break
+            sleep 1
+          done
+          node scripts/print-cv.js
+          kill $SERVER_PID 2>/dev/null || true
+      - name: Copy PDF into built site
+        run: |
+          mkdir -p _site/assets/pdf
+          cp assets/pdf/cv.pdf _site/assets/pdf/cv.pdf
+
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+
+      # ── Commit the regenerated PDF back to the repo ──────────────────────
+      # [skip ci] prevents this commit from re-triggering this workflow.
+      - name: Commit PDF to repository
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pdf/cv.pdf
+          if git diff --staged --quiet; then
+            echo "PDF unchanged — nothing to commit."
+          else
+            git commit -m "Auto-generate CV PDF [skip ci]"
+            git push
+          fi
